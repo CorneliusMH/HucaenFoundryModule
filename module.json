@@ -1,10 +1,13 @@
 {
   "id": "hucaen-module",
-  "title": "Hucaen Module",
-  "version": "0.0.1",
+  "title": "Hucaen World Setting",
+  "version": "#{VERSION}#",
+  "library": "false",
+  "manifestPlusVersion": "1.2.0",
   "compatibility": {
-    "minimum": "11",
-    "verified": "11"
+    "minimum": 10,
+    "verified": 11,
+    "maximum": 12
   },
   "description": "Setting-specific info about Hucaen.",
   "authors": [
@@ -14,6 +17,10 @@
       "flags": {}
     }
   ],
+  "relationships": {
+    "systems": [],
+    "requires": []
+  },
   "packs": [
     {
       "name": "deities-of-hucaen",
@@ -71,6 +78,17 @@
         "ASSISTANT": "OWNER"
       },
       "flags": {}
+    }
+  ],
+  "url": "#{URL}#",
+  "manifest": "#{MANIFEST}#",
+  "download": "#{DOWNLOAD}#",
+  "license": "LICENSE",
+  "readme": "README.md",
+  "media": [
+    {
+      "type": "icon",
+      "url": "https://avatars2.githubusercontent.com/u/71292812?s=400&u=ccdb4eeb7abf551ca8f314e5a9bfd0479a4d3d41&v=4"
     }
   ]
 }
