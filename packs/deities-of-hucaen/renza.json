@@ -1,5 +1,5 @@
 {
-    "_id": "renza5ffe8a19c07be725d83b7b72201b6109",
+    "folder": "i6ZDGprca6gJA6X8",
     "img": "default.webp",
     "name": "Renza",
     "system": {
@@ -24,10 +24,11 @@
             "harm"
         ],
         "publication": {
-            "license": "ORC",
-            "remaster": true,
-            "title": "Hucaen 1107"
-        },
+      "title": "Player's Guide to Hucaen 1107",
+      "authors": "Cornelius",
+      "license": "ORC",
+      "remaster": true
+    },
         "rules": [],
         "sanctification": {
             "modal": "can",
