@@ -1,6 +1,6 @@
 {
-    "_id": "qhontia2a1250c4c04528a1e85abd3b3f2d5ab5",
-    "img": "default.webp",
+    "_id": "Qhontia0lAEdqT3F",
+    "img": "systems/pf2e/icons/default-icons/deity.svg",
     "name": "Qhontia",
     "system": {
         "attribute": [
@@ -27,7 +27,8 @@
         "publication": {
             "license": "ORC",
             "remaster": true,
-            "title": "Hucaen 1107"
+            "title": "Player's Guide to Hucaen 1107: Foundry Edition",
+            "author": "Cornelius"
         },
         "rules": [],
         "sanctification": {

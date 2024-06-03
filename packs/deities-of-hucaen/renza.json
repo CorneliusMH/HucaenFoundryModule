@@ -1,6 +1,6 @@
 {
-    "folder": "i6ZDGprca6gJA6X8",
-    "img": "default.webp",
+    "_id": "Renza0gvQ5TK9bGH",
+    "img": "systems/pf2e/icons/default-icons/deity.svg",
     "name": "Renza",
     "system": {
         "attribute": [
@@ -24,11 +24,11 @@
             "harm"
         ],
         "publication": {
-      "title": "Player's Guide to Hucaen 1107",
-      "authors": "Cornelius",
-      "license": "ORC",
-      "remaster": true
-    },
+            "license": "ORC",
+            "remaster": true,
+            "title": "Player's Guide to Hucaen 1107: Foundry Edition",
+            "author": "Cornelius"
+        },
         "rules": [],
         "sanctification": {
             "modal": "can",
@@ -47,7 +47,7 @@
         },
         "traits": {},
         "weapons": [
-            "pick","war pick"
+            "pick"
         ]
     },
     "type": "deity"

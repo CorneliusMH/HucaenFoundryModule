@@ -1,6 +1,6 @@
 {
-    "_id": "lathasce0061364fbdafd07aa7b6c750208f0a",
-    "img": "default.webp",
+    "_id": "Lathas0V9G9v3DZc",
+    "img": "systems/pf2e/icons/default-icons/deity.svg",
     "name": "Lathas",
     "system": {
         "attribute": [
@@ -27,7 +27,8 @@
         "publication": {
             "license": "ORC",
             "remaster": true,
-            "title": "Hucaen 1107"
+            "title": "Player's Guide to Hucaen 1107: Foundry Edition",
+            "author": "Cornelius"
         },
         "rules": [],
         "sanctification": {

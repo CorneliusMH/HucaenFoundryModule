@@ -1,6 +1,6 @@
 {
-    "_id": "jevitras62456377d475e36ed1faecebb7301d72",
-    "img": "default.webp",
+    "_id": "Jevitras0mScQnRc",
+    "img": "systems/pf2e/icons/default-icons/deity.svg",
     "name": "Jevitras",
     "system": {
         "attribute": [
@@ -27,7 +27,8 @@
         "publication": {
             "license": "ORC",
             "remaster": true,
-            "title": "Hucaen 1107"
+            "title": "Player's Guide to Hucaen 1107: Foundry Edition",
+            "author": "Cornelius"
         },
         "rules": [],
         "sanctification": {

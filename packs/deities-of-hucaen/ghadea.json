@@ -1,6 +1,6 @@
 {
-    "_id": "ghadeaf5798399a3d18488f11d5b262be2e66e",
-    "img": "default.webp",
+    "_id": "Ghadea0g0SMG2ctV",
+    "img": "systems/pf2e/icons/default-icons/deity.svg",
     "name": "Ghadea",
     "system": {
         "attribute": [
@@ -26,7 +26,8 @@
         "publication": {
             "license": "ORC",
             "remaster": true,
-            "title": "Hucaen 1107"
+            "title": "Player's Guide to Hucaen 1107: Foundry Edition",
+            "author": "Cornelius"
         },
         "rules": [],
         "sanctification": {

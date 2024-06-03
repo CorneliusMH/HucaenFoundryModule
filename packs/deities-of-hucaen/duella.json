@@ -1,6 +1,6 @@
 {
-    "_id": "duellafe58de5b85491cb1d80b66c68fc3f719",
-    "img": "default.webp",
+    "_id": "Duella0TXPTuxBgQ",
+    "img": "systems/pf2e/icons/default-icons/deity.svg",
     "name": "Duella",
     "system": {
         "attribute": [
@@ -26,7 +26,8 @@
         "publication": {
             "license": "ORC",
             "remaster": true,
-            "title": "Hucaen 1107"
+            "title": "Player's Guide to Hucaen 1107: Foundry Edition",
+            "author": "Cornelius"
         },
         "rules": [],
         "sanctification": {

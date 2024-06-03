@@ -1,6 +1,6 @@
 {
-    "_id": "beraur4477653f6e7a70c94446ed5c53bea602",
-    "img": "default.webp",
+    "_id": "Beraur06ly912efH",
+    "img": "systems/pf2e/icons/default-icons/deity.svg",
     "name": "Beraur",
     "system": {
         "attribute": [
@@ -26,7 +26,8 @@
         "publication": {
             "license": "ORC",
             "remaster": true,
-            "title": "Hucaen 1107"
+            "title": "Player's Guide to Hucaen 1107: Foundry Edition",
+            "author": "Cornelius"
         },
         "rules": [],
         "sanctification": {

@@ -1,6 +1,6 @@
 {
-    "_id": "taszia431e4eb7fd57d0f367fd0e8fe700f4ed",
-    "img": "default.webp",
+    "_id": "Taszia07hakYr0Gv",
+    "img": "systems/pf2e/icons/default-icons/deity.svg",
     "name": "Taszia",
     "system": {
         "attribute": [
@@ -26,7 +26,8 @@
         "publication": {
             "license": "ORC",
             "remaster": true,
-            "title": "Hucaen 1107"
+            "title": "Player's Guide to Hucaen 1107: Foundry Edition",
+            "author": "Cornelius"
         },
         "rules": [],
         "sanctification": {
