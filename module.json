@@ -1,0 +1,76 @@
+{
+  "id": "hucaen-module",
+  "title": "Hucaen Module",
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "description": "Setting-specific info about Hucaen.",
+  "authors": [
+    {
+      "name": "Cornelius H.",
+      "discord": "cornelius_",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "deities-of-hucaen",
+      "label": "Deities of Hucaen",
+      "path": "packs/deities-of-hucaen",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "maps-of-hucaen",
+      "label": "Maps of Hucaen",
+      "path": "packs/maps-of-hucaen",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "npcs-of-hucaen",
+      "label": "NPCs of Hucaen",
+      "path": "packs/npcs-of-hucaen",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "tables-of-hucaen",
+      "label": "Tables of hucaen",
+      "path": "packs/tables-of-hucaen",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "journals-of-hucaen",
+      "label": "Journals of Hucaen",
+      "path": "packs/journals-of-hucaen",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    }
+  ]
+}

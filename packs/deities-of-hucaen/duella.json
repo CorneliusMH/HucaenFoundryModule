@@ -1,0 +1,53 @@
+{
+    "_id": "duellafe58de5b85491cb1d80b66c68fc3f719",
+    "img": "default.webp",
+    "name": "Duella",
+    "system": {
+        "attribute": [
+            "con",
+            "int"
+        ],
+        "category": "deity",
+        "description": {
+            "value": "<p>Duella watches over the people of Hucaen as they sleep and dream. The Dream Dweller is not to be trifled with, however - she can just as easily give nightmares as peaceful sleep. Some say the stars in the sky are individual dreams.</p>\n<p><strong>Edicts</strong> always make time for sleeping and dreams, ensure others never go to sleep scared</p>\n<p><strong>Anathema</strong> stay up all night without any breaks for sleeping or dreaming, attack a person or creature while they sleep</p>\n<p><strong>Areas of Concern</strong> dreams, stars, freedom, nightmares</p>"
+        },
+        "domains": {
+            "alertnate": [],
+            "primary": [
+                "dreams",
+                "darkness",
+                "nightmares",
+                "moon"
+            ]
+        },
+        "font": [
+            "harm"
+        ],
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Hucaen 1107"
+        },
+        "rules": [],
+        "sanctification": {
+            "modal": "can",
+            "what": [
+                "holy",
+                "unholy"
+            ]
+        },
+        "skill": [
+            "society"
+        ],
+        "spells": {
+            "1": "Compendium.pf2e.spells-srd.Item.o4lRVTwSxnOOn5vl",
+            "3": "Compendium.pf2e.spells-srd.Item.yM3KTTSAIHhyuP14",
+            "4": "Compendium.pf2e.spells-srd.Item.Uqj344bezBq3ESdq"
+        },
+        "traits": {},
+        "weapons": [
+            "starknife"
+        ]
+    },
+    "type": "deity"
+}

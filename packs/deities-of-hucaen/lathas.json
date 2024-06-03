@@ -1,0 +1,54 @@
+{
+    "_id": "lathasce0061364fbdafd07aa7b6c750208f0a",
+    "img": "default.webp",
+    "name": "Lathas",
+    "system": {
+        "attribute": [
+            "str",
+            "con"
+        ],
+        "category": "deity",
+        "description": {
+            "value": "<p>Lathas promises that anything is possible if you work hard enough. The Sweat Broken smiles upon those who toil, cities, and amassed wealth. They prefer worship in the form of creation for a purpose, though they do not look down upon art.</p>\n<p><strong>Edicts</strong> continually improve your abilities, work ceaselessly, express yourself through craft, provide necessities and protection for those in need</p>\n<p><strong>Anathema</strong> fail to work toward goals or grow in skill, relax excessively or give into sloth</p>\n<p><strong>Areas of Concern</strong> cities, wealth, law, forge</p>"
+        },
+        "domains": {
+            "alertnate": [],
+            "primary": [
+                "wealth",
+                "ambition",
+                "change",
+                "creation"
+            ]
+        },
+        "font": [
+            "harm",
+            "heal"
+        ],
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Hucaen 1107"
+        },
+        "rules": [],
+        "sanctification": {
+            "modal": "can",
+            "what": [
+                "holy",
+                "unholy"
+            ]
+        },
+        "skill": [
+            "crafting"
+        ],
+        "spells": {
+            "1": "Compendium.pf2e.spells-srd.Item.TPI9fRCAYsDqpAe4",
+            "4": "Compendium.pf2e.spells-srd.Item.8M03UxGXjYyDFAoy",
+            "7": "Compendium.pf2e.spells-srd.Item.73rToy0v5Ra9NvL6"
+        },
+        "traits": {},
+        "weapons": [
+            "warhammer"
+        ]
+    },
+    "type": "deity"
+}

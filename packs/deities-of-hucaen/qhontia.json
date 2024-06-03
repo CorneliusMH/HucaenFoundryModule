@@ -1,0 +1,54 @@
+{
+    "_id": "qhontia2a1250c4c04528a1e85abd3b3f2d5ab5",
+    "img": "default.webp",
+    "name": "Qhontia",
+    "system": {
+        "attribute": [
+            "con",
+            "wis"
+        ],
+        "category": "deity",
+        "description": {
+            "value": "<p>Qhontia presides over the cycle of death and birth, from death in combat and old age, to reincarnation, all the way on down to compost. They make sure the cycle continues - things must die to make room for things to be born.</p>\n<p><strong>Edicts</strong> Recycle rot and waste into useful creations, shock the self-righteous, destroy undead</p>\n<p><strong>Anathema</strong> waste food or good materials, allow rot to poison an area, create undead</p>\n<p><strong>Areas of Concern</strong> death, birth, nature, darkness</p>"
+        },
+        "domains": {
+            "alertnate": [],
+            "primary": [
+                "nature",
+                "decay",
+                "death",
+                "indulgence"
+            ]
+        },
+        "font": [
+            "harm",
+            "heal"
+        ],
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Hucaen 1107"
+        },
+        "rules": [],
+        "sanctification": {
+            "modal": "can",
+            "what": [
+                "holy",
+                "unholy"
+            ]
+        },
+        "skill": [
+            "survival"
+        ],
+        "spells": {
+            "1": "Compendium.pf2e.spells-srd.Item.gfPjmG6Fe6D3MFjl",
+            "2": "Compendium.pf2e.spells-srd.Item.dileJ0Yxqg76LMvu",
+            "7": "Compendium.pf2e.spells-srd.Item.Z9OrRXKgAPv6Hn5l"
+        },
+        "traits": {},
+        "weapons": [
+            "sickle"
+        ]
+    },
+    "type": "deity"
+}

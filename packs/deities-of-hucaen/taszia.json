@@ -1,0 +1,52 @@
+{
+    "_id": "taszia431e4eb7fd57d0f367fd0e8fe700f4ed",
+    "img": "default.webp",
+    "name": "Taszia",
+    "system": {
+        "attribute": [
+            "dex",
+            "cha"
+        ],
+        "category": "deity",
+        "description": {
+            "value": "<p>Taszia ushers the dead to a peaceful rest, and abhors anything that interferes, especially the undead. The Tears Wept mourn for those who have died, and those he knows will die. He is cursed with the knowledge of the future, and shares in the form of prophecy.</p>\n<p><strong>Edicts</strong> lay bodies to rest, aid fellow travelers, explore new places</p>\n<p><strong>Anathema</strong> make decisions erratically or randomly, desecrate a corpse, rob a tomb, engage in banditry or piracy</p>\n<p><strong>Areas of Concern</strong> fate, loss, pain, prophecy</p>"
+        },
+        "domains": {
+            "alertnate": [],
+            "primary": [
+                "soul",
+                "travel",
+                "sorrow",
+                "vigil"
+            ]
+        },
+        "font": [
+            "heal"
+        ],
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Hucaen 1107"
+        },
+        "rules": [],
+        "sanctification": {
+            "modal": "can",
+            "what": [
+                "holy"
+            ]
+        },
+        "skill": [
+            "society"
+        ],
+        "spells": {
+            "1": "Compendium.pf2e.spells-srd.Item.EDABphKEPUBiMmQC",
+            "4": "Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8",
+            "8": "Compendium.pf2e.spells-srd.Item.U0hL0LLaprcnAyzC"
+        },
+        "traits": {},
+        "weapons": [
+            "shield bow"
+        ]
+    },
+    "type": "deity"
+}

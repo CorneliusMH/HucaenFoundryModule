@@ -1,0 +1,54 @@
+{
+    "_id": "jevitras62456377d475e36ed1faecebb7301d72",
+    "img": "default.webp",
+    "name": "Jevitras",
+    "system": {
+        "attribute": [
+            "int",
+            "wis"
+        ],
+        "category": "deity",
+        "description": {
+            "value": "<p>Jevitras searches for new knowledge and new magic relentlessly. The Keen Librarian has directed their followers to build libraries and laboratories Instead of temples. They prefer if people don't get hurt in the process, but only so much.</p>\n<p><strong>Edicts</strong> seek out magical power and use it</p>\n<p><strong>Anathema</strong> pursue mundane paths over magical ones</p>\n<p><strong>Areas of Concern</strong> magic, knowledge, alchemy</p>"
+        },
+        "domains": {
+            "alertnate": [],
+            "primary": [
+                "freedom",
+                "magic",
+                "knowledge",
+                "star"
+            ]
+        },
+        "font": [
+            "harm",
+            "heal"
+        ],
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Hucaen 1107"
+        },
+        "rules": [],
+        "sanctification": {
+            "modal": "can",
+            "what": [
+                "holy",
+                "unholy"
+            ]
+        },
+        "skill": [
+            "arcana"
+        ],
+        "spells": {
+            "1": "Compendium.pf2e.spells-srd.Item.TjWHgXqPv5jywMti",
+            "2": "Compendium.pf2e.spells-srd.Item.vTQvfYu2llKQedmY",
+            "8": "Compendium.pf2e.spells-srd.Item.Oj1PJBMQD9vuwCv7"
+        },
+        "traits": {},
+        "weapons": [
+            "staff"
+        ]
+    },
+    "type": "deity"
+}

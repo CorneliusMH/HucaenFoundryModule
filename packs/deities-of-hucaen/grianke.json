@@ -1,0 +1,53 @@
+{
+    "_id": "grianke39031d24d08d3e31640a340c2efb3f4e",
+    "img": "default.webp",
+    "name": "Grianke",
+    "system": {
+        "attribute": [
+            "con",
+            "int"
+        ],
+        "category": "deity",
+        "description": {
+            "value": "<p>Grianke embodies balance, truth, and justice. The Eternal Judge's wants to root out corruption and injustice everywhere. His followers accomplish this by direct action or exposing it for the public to take action.</p>\n<p><strong>Edicts</strong> be humble; help others perfect themselves; hone your body, mind, and spirit to a more perfect state;</p>\n<p><strong>Anathema</strong> become addicted to a substance, refuse a challenge from an equal, repeatedly fail to maintain self-control</p>\n<p><strong>Areas of Concern</strong> truth, justice, family, honor</p>"
+        },
+        "domains": {
+            "alertnate": [],
+            "primary": [
+                "truth",
+                "duty",
+                "perfection",
+                "introspection"
+            ]
+        },
+        "font": [
+            "harm"
+        ],
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Hucaen 1107"
+        },
+        "rules": [],
+        "sanctification": {
+            "modal": "can",
+            "what": [
+                "holy",
+                "unholy"
+            ]
+        },
+        "skill": [
+            "society"
+        ],
+        "spells": {
+            "1": "Compendium.pf2e.spells-srd.Item.vLA0q0WOK2YPuJs6",
+            "2": "Compendium.pf2e.spells-srd.Item.0qaqksrGGDj74HXE",
+            "6": "Compendium.pf2e.spells-srd.Item.GYD0XZ4t3tQq6shc"
+        },
+        "traits": {},
+        "weapons": [
+            "longsword"
+        ]
+    },
+    "type": "deity"
+}

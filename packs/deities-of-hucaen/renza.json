@@ -1,0 +1,53 @@
+{
+    "_id": "renza5ffe8a19c07be725d83b7b72201b6109",
+    "img": "default.webp",
+    "name": "Renza",
+    "system": {
+        "attribute": [
+            "str",
+            "cha"
+        ],
+        "category": "deity",
+        "description": {
+            "value": "<p>Renza fiercely protects those she loves, and those in need. The Blood Risen is strong emotion and adrenaline personified: She loves the thrill of combat, of love, of righteous fury.</p>\n<p><strong>Edicts</strong> do whatever it takes to survive</p>\n<p><strong>Anathema</strong> allow others to slight you without retaliation, forgive those who have wronged you, sacrifice others in your place</p>\n<p><strong>Areas of Concern</strong> lust, protection, valor, pride</p>"
+        },
+        "domains": {
+            "alertnate": [],
+            "primary": [
+                "pain",
+                "cities",
+                "confidence",
+                "luck"
+            ]
+        },
+        "font": [
+            "harm"
+        ],
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Hucaen 1107"
+        },
+        "rules": [],
+        "sanctification": {
+            "modal": "can",
+            "what": [
+                "holy",
+                "unholy"
+            ]
+        },
+        "skill": [
+            "athletics"
+        ],
+        "spells": {
+            "1": "Compendium.pf2e.spells-srd.Item.Rn2LkoSq1XhLsODV",
+            "2": "Compendium.pf2e.spells-srd.Item.TaaMEYdZXQXF0Sks",
+            "3": "Compendium.pf2e.spells-srd.Item.N1Z1oLPdBxaSgrEE"
+        },
+        "traits": {},
+        "weapons": [
+            "pick","war pick"
+        ]
+    },
+    "type": "deity"
+}

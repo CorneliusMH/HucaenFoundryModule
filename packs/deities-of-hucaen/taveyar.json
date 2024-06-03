@@ -1,0 +1,52 @@
+{
+    "_id": "taveyar62ed8f17885c6a3dd2cdd43ae7f8cd12",
+    "img": "default.webp",
+    "name": "Taveyar",
+    "system": {
+        "attribute": [
+            "str",
+            "wis"
+        ],
+        "category": "deity",
+        "description": {
+            "value": "<p>Taveyar believes that might makes right. The Dread Archduke has fans in all levels of many heirarchies, particularly military ones. His preferred method of worship is via combat, and is not known for mercy.</p>\n<p><strong>Edicts</strong> veil your motives, make dangerous deals, speak with refinement</p>\n<p><strong>Anathema</strong> cower from fights, neglect your defenses, betray a lover</p>\n<p><strong>Areas of Concern</strong> strength, revenge, tyranny, battle</p>"
+        },
+        "domains": {
+            "alertnate": [],
+            "primary": [
+                "might",
+                "toil",
+                "zeal",
+                "tyranny"
+            ]
+        },
+        "font": [
+            "harm"
+        ],
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Hucaen 1107"
+        },
+        "rules": [],
+        "sanctification": {
+            "modal": "can",
+            "what": [
+                "unholy"
+            ]
+        },
+        "skill": [
+            "athletics"
+        ],
+        "spells": {
+            "1": "Compendium.pf2e.spells-srd.Item.jfVCuOpzC6mUrf6f",
+            "4": "Compendium.pf2e.spells-srd.Item.Jmxru8zMdYMRuO5n",
+            "9": "Compendium.pf2e.spells-srd.Item.10VcmSYNBrvBphu1"
+        },
+        "traits": {},
+        "weapons": [
+            "greataxe"
+        ]
+    },
+    "type": "deity"
+}
