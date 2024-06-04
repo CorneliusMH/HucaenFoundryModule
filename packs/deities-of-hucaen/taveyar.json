@@ -1,15 +1,41 @@
 {
-    "_id": "Taveyar0Z2oTPuI4",
-    "img": "systems/pf2e/icons/default-icons/deity.svg",
+    "folder": "UtKUM7TjPR08hL9M",
     "name": "Taveyar",
+    "type": "deity",
+    "effects": [],
     "system": {
-        "attribute": [
-            "str",
-            "wis"
-        ],
-        "category": "deity",
         "description": {
             "value": "<p>Taveyar believes that might makes right. The Dread Archduke has fans in all levels of many heirarchies, particularly military ones. His preferred method of worship is via combat, and is not known for mercy.</p>\n<p><strong>Edicts</strong> veil your motives, make dangerous deals, speak with refinement</p>\n<p><strong>Anathema</strong> cower from fights, neglect your defenses, betray a lover</p>\n<p><strong>Areas of Concern</strong> strength, revenge, tyranny, battle</p>"
+        },
+        "rules": [],
+        "slug": "taveyar",
+        "_migration": {
+            "version": 0.926,
+            "lastMigration": null,
+            "previous": {
+                "schema": 0.925,
+                "foundry": "11.315",
+                "system": "5.15.1"
+            }
+        },
+        "traits": {
+            "otherTags": [
+                "hucaen"
+            ],
+            "value": []
+        },
+        "publication": {
+            "title": "Player's Guide to Hucaen 1107: Foundry Edition",
+            "authors": "Cornelius",
+            "license": "ORC",
+            "remaster": true
+        },
+        "category": "deity",
+        "sanctification": {
+            "modal": "can",
+            "what": [
+                "unholy"
+            ]
         },
         "domains": {
             "alertnate": [],
@@ -23,31 +49,42 @@
         "font": [
             "harm"
         ],
-        "publication": {
-            "license": "ORC",
-            "remaster": true,
-            "title": "Player's Guide to Hucaen 1107: Foundry Edition",
-            "author": "Cornelius"
-        },
-        "rules": [],
-        "sanctification": {
-            "modal": "can",
-            "what": [
-                "unholy"
-            ]
-        },
+        "attribute": [
+            "str",
+            "wis"
+        ],
         "skill": [
             "athletics"
+        ],
+        "weapons": [
+            "greataxe"
         ],
         "spells": {
             "1": "Compendium.pf2e.spells-srd.Item.jfVCuOpzC6mUrf6f",
             "4": "Compendium.pf2e.spells-srd.Item.Jmxru8zMdYMRuO5n",
             "9": "Compendium.pf2e.spells-srd.Item.10VcmSYNBrvBphu1"
-        },
-        "traits": {},
-        "weapons": [
-            "greataxe"
-        ]
+        }
     },
-    "type": "deity"
+    "img": "static/deities/taveyar.svg",
+    "flags": {
+        "scene-packer": {
+            "hash": "e9c36036190c5987d048a141dc9bd2dbfe61fb42",
+            "sourceId": "Item.Taveyar0Gmzk6qsa"
+        },
+        "exportSource": {
+            "world": "hucaen",
+            "system": "pf2e",
+            "coreVersion": "11.315",
+            "systemVersion": "5.16.1"
+        }
+    },
+    "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.16.1",
+        "coreVersion": "11.315",
+        "createdTime": 1712458008283,
+        "modifiedTime": 1717450510235,
+        "lastModifiedBy": "VF2UaE72a1Li54wn"
+    },
+    "_id": "Taveyar0Gmzk6qsa"
 }

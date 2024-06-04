@@ -1,15 +1,42 @@
 {
-    "_id": "Grianke06NtcwBX9",
-    "img": "systems/pf2e/icons/default-icons/deity.svg",
+    "folder": "UtKUM7TjPR08hL9M",
     "name": "Grianke",
+    "type": "deity",
+    "effects": [],
     "system": {
-        "attribute": [
-            "con",
-            "int"
-        ],
-        "category": "deity",
         "description": {
             "value": "<p>Grianke embodies balance, truth, and justice. The Eternal Judge's wants to root out corruption and injustice everywhere. His followers accomplish this by direct action or exposing it for the public to take action.</p>\n<p><strong>Edicts</strong> be humble; help others perfect themselves; hone your body, mind, and spirit to a more perfect state;</p>\n<p><strong>Anathema</strong> become addicted to a substance, refuse a challenge from an equal, repeatedly fail to maintain self-control</p>\n<p><strong>Areas of Concern</strong> truth, justice, family, honor</p>"
+        },
+        "rules": [],
+        "slug": "grianke",
+        "_migration": {
+            "version": 0.926,
+            "lastMigration": null,
+            "previous": {
+                "schema": 0.925,
+                "foundry": "11.315",
+                "system": "5.15.1"
+            }
+        },
+        "traits": {
+            "otherTags": [
+                "hucaen"
+            ],
+            "value": []
+        },
+        "publication": {
+            "title": "Player's Guide to Hucaen 1107: Foundry Edition",
+            "authors": "Cornelius",
+            "license": "ORC",
+            "remaster": true
+        },
+        "category": "deity",
+        "sanctification": {
+            "modal": "can",
+            "what": [
+                "holy",
+                "unholy"
+            ]
         },
         "domains": {
             "alertnate": [],
@@ -23,32 +50,42 @@
         "font": [
             "harm"
         ],
-        "publication": {
-            "license": "ORC",
-            "remaster": true,
-            "title": "Player's Guide to Hucaen 1107: Foundry Edition",
-            "author": "Cornelius"
-        },
-        "rules": [],
-        "sanctification": {
-            "modal": "can",
-            "what": [
-                "holy",
-                "unholy"
-            ]
-        },
+        "attribute": [
+            "con",
+            "int"
+        ],
         "skill": [
             "society"
+        ],
+        "weapons": [
+            "longsword"
         ],
         "spells": {
             "1": "Compendium.pf2e.spells-srd.Item.vLA0q0WOK2YPuJs6",
             "2": "Compendium.pf2e.spells-srd.Item.0qaqksrGGDj74HXE",
             "6": "Compendium.pf2e.spells-srd.Item.GYD0XZ4t3tQq6shc"
-        },
-        "traits": {},
-        "weapons": [
-            "longsword"
-        ]
+        }
     },
-    "type": "deity"
+    "img": "static/deities/grianke.svg",
+    "flags": {
+        "scene-packer": {
+            "hash": "e9c36036190c5987d048a141dc9bd2dbfe61fb42",
+            "sourceId": "Item.Grianke0Gmo6DgXL"
+        },
+        "exportSource": {
+            "world": "hucaen",
+            "system": "pf2e",
+            "coreVersion": "11.315",
+            "systemVersion": "5.16.1"
+        }
+    },
+    "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.16.1",
+        "coreVersion": "11.315",
+        "createdTime": 1712458008283,
+        "modifiedTime": 1717450510235,
+        "lastModifiedBy": "VF2UaE72a1Li54wn"
+    },
+    "_id": "Grianke0Gmo6DgXL"
 }

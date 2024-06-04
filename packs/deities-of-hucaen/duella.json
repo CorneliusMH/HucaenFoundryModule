@@ -1,15 +1,42 @@
 {
-    "_id": "Duella0TXPTuxBgQ",
-    "img": "systems/pf2e/icons/default-icons/deity.svg",
+    "folder": "UtKUM7TjPR08hL9M",
     "name": "Duella",
+    "type": "deity",
+    "effects": [],
     "system": {
-        "attribute": [
-            "con",
-            "int"
-        ],
-        "category": "deity",
         "description": {
             "value": "<p>Duella watches over the people of Hucaen as they sleep and dream. The Dream Dweller is not to be trifled with, however - she can just as easily give nightmares as peaceful sleep. Some say the stars in the sky are individual dreams.</p>\n<p><strong>Edicts</strong> always make time for sleeping and dreams, ensure others never go to sleep scared</p>\n<p><strong>Anathema</strong> stay up all night without any breaks for sleeping or dreaming, attack a person or creature while they sleep</p>\n<p><strong>Areas of Concern</strong> dreams, stars, freedom, nightmares</p>"
+        },
+        "rules": [],
+        "slug": "duella",
+        "_migration": {
+            "version": 0.926,
+            "lastMigration": null,
+            "previous": {
+                "schema": 0.925,
+                "foundry": "11.315",
+                "system": "5.15.1"
+            }
+        },
+        "traits": {
+            "otherTags": [
+                "hucaen"
+            ],
+            "value": []
+        },
+        "publication": {
+            "title": "Player's Guide to Hucaen 1107: Foundry Edition",
+            "authors": "Cornelius",
+            "license": "ORC",
+            "remaster": true
+        },
+        "category": "deity",
+        "sanctification": {
+            "modal": "can",
+            "what": [
+                "holy",
+                "unholy"
+            ]
         },
         "domains": {
             "alertnate": [],
@@ -23,32 +50,42 @@
         "font": [
             "harm"
         ],
-        "publication": {
-            "license": "ORC",
-            "remaster": true,
-            "title": "Player's Guide to Hucaen 1107: Foundry Edition",
-            "author": "Cornelius"
-        },
-        "rules": [],
-        "sanctification": {
-            "modal": "can",
-            "what": [
-                "holy",
-                "unholy"
-            ]
-        },
+        "attribute": [
+            "con",
+            "int"
+        ],
         "skill": [
             "society"
+        ],
+        "weapons": [
+            "starknife"
         ],
         "spells": {
             "1": "Compendium.pf2e.spells-srd.Item.o4lRVTwSxnOOn5vl",
             "3": "Compendium.pf2e.spells-srd.Item.yM3KTTSAIHhyuP14",
             "4": "Compendium.pf2e.spells-srd.Item.Uqj344bezBq3ESdq"
-        },
-        "traits": {},
-        "weapons": [
-            "starknife"
-        ]
+        }
     },
-    "type": "deity"
+    "img": "static/deities/duella.svg",
+    "flags": {
+        "scene-packer": {
+            "hash": "e9c36036190c5987d048a141dc9bd2dbfe61fb42",
+            "sourceId": "Item.Duella01B59Nbgyw"
+        },
+        "exportSource": {
+            "world": "hucaen",
+            "system": "pf2e",
+            "coreVersion": "11.315",
+            "systemVersion": "5.16.1"
+        }
+    },
+    "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.16.1",
+        "coreVersion": "11.315",
+        "createdTime": 1712458008283,
+        "modifiedTime": 1717450510235,
+        "lastModifiedBy": "VF2UaE72a1Li54wn"
+    },
+    "_id": "Duella01B59Nbgyw"
 }
