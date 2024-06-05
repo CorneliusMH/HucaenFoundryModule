@@ -39,7 +39,6 @@ def process_deity(inputBlob):
 	deityJson['domains']		= get_domains(god['Domains'])
 	deityWhole['_id'] 			= get_id(god['Deity'])
 	deityWhole['name']			= god['Deity']
-	# deityJson['img'] 		= 
 	deityJson['skill']			= [god['Divine Skill'].lower()]
 	deityJson['description'] 	= get_desc(god)
 	deityJson['sanctification'] = get_sanc(god['Divine Sanctification'])
