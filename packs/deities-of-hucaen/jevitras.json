@@ -67,11 +67,11 @@
             "8": "Compendium.pf2e.spells-srd.Item.Oj1PJBMQD9vuwCv7"
         }
     },
-    "img": "static/deities/jevitras.svg",
+    "img": "modules/hucaen-module/static/deities/jevitras.svg",
     "flags": {
         "scene-packer": {
             "hash": "e9c36036190c5987d048a141dc9bd2dbfe61fb42",
-            "sourceId": "Item.Jevitras0uw6dPhP"
+            "sourceId": "Item.Jevitras08wSQ6ji"
         },
         "exportSource": {
             "world": "hucaen",
@@ -88,5 +88,5 @@
         "modifiedTime": 1717450510235,
         "lastModifiedBy": "VF2UaE72a1Li54wn"
     },
-    "_id": "Jevitras0uw6dPhP"
+    "_id": "Jevitras08wSQ6ji"
 }

@@ -65,11 +65,11 @@
             "6": "Compendium.pf2e.spells-srd.Item.McnPlLFvKtQVXNcG"
         }
     },
-    "img": "static/deities/ghadea.svg",
+    "img": "modules/hucaen-module/static/deities/ghadea.svg",
     "flags": {
         "scene-packer": {
             "hash": "e9c36036190c5987d048a141dc9bd2dbfe61fb42",
-            "sourceId": "Item.Ghadea0sUT2NYutx"
+            "sourceId": "Item.Ghadea0Eg9o5ejlL"
         },
         "exportSource": {
             "world": "hucaen",
@@ -86,5 +86,5 @@
         "modifiedTime": 1717450510235,
         "lastModifiedBy": "VF2UaE72a1Li54wn"
     },
-    "_id": "Ghadea0sUT2NYutx"
+    "_id": "Ghadea0Eg9o5ejlL"
 }

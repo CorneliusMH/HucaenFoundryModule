@@ -67,11 +67,11 @@
             "7": "Compendium.pf2e.spells-srd.Item.73rToy0v5Ra9NvL6"
         }
     },
-    "img": "static/deities/lathas.svg",
+    "img": "modules/hucaen-module/static/deities/lathas.svg",
     "flags": {
         "scene-packer": {
             "hash": "e9c36036190c5987d048a141dc9bd2dbfe61fb42",
-            "sourceId": "Item.Lathas0byZSlCfxk"
+            "sourceId": "Item.Lathas0XaewA5qgF"
         },
         "exportSource": {
             "world": "hucaen",
@@ -88,5 +88,5 @@
         "modifiedTime": 1717450510235,
         "lastModifiedBy": "VF2UaE72a1Li54wn"
     },
-    "_id": "Lathas0byZSlCfxk"
+    "_id": "Lathas0XaewA5qgF"
 }

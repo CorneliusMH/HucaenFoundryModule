@@ -65,11 +65,11 @@
             "6": "Compendium.pf2e.spells-srd.Item.uqlxMQQeSGWEVjki"
         }
     },
-    "img": "static/deities/beraur.svg",
+    "img": "modules/hucaen-module/static/deities/beraur.svg",
     "flags": {
         "scene-packer": {
             "hash": "e9c36036190c5987d048a141dc9bd2dbfe61fb42",
-            "sourceId": "Item.Beraur0q8JNatL4t"
+            "sourceId": "Item.Beraur0myhKscpHQ"
         },
         "exportSource": {
             "world": "hucaen",
@@ -86,5 +86,5 @@
         "modifiedTime": 1717450510235,
         "lastModifiedBy": "VF2UaE72a1Li54wn"
     },
-    "_id": "Beraur0q8JNatL4t"
+    "_id": "Beraur0myhKscpHQ"
 }

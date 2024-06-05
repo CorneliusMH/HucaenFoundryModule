@@ -66,11 +66,11 @@
             "3": "Compendium.pf2e.spells-srd.Item.N1Z1oLPdBxaSgrEE"
         }
     },
-    "img": "static/deities/renza.svg",
+    "img": "modules/hucaen-module/static/deities/renza.svg",
     "flags": {
         "scene-packer": {
             "hash": "e9c36036190c5987d048a141dc9bd2dbfe61fb42",
-            "sourceId": "Item.Renza0ZYpxJAPl3r"
+            "sourceId": "Item.Renza0TmqD4FUALc"
         },
         "exportSource": {
             "world": "hucaen",
@@ -87,5 +87,5 @@
         "modifiedTime": 1717450510235,
         "lastModifiedBy": "VF2UaE72a1Li54wn"
     },
-    "_id": "Renza0ZYpxJAPl3r"
+    "_id": "Renza0TmqD4FUALc"
 }

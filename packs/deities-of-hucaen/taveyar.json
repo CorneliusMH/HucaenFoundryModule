@@ -65,11 +65,11 @@
             "9": "Compendium.pf2e.spells-srd.Item.10VcmSYNBrvBphu1"
         }
     },
-    "img": "static/deities/taveyar.svg",
+    "img": "modules/hucaen-module/static/deities/taveyar.svg",
     "flags": {
         "scene-packer": {
             "hash": "e9c36036190c5987d048a141dc9bd2dbfe61fb42",
-            "sourceId": "Item.Taveyar0Gmzk6qsa"
+            "sourceId": "Item.Taveyar0Eo40iblp"
         },
         "exportSource": {
             "world": "hucaen",
@@ -86,5 +86,5 @@
         "modifiedTime": 1717450510235,
         "lastModifiedBy": "VF2UaE72a1Li54wn"
     },
-    "_id": "Taveyar0Gmzk6qsa"
+    "_id": "Taveyar0Eo40iblp"
 }

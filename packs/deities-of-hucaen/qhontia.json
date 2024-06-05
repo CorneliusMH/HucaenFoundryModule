@@ -67,11 +67,11 @@
             "7": "Compendium.pf2e.spells-srd.Item.Z9OrRXKgAPv6Hn5l"
         }
     },
-    "img": "static/deities/qhontia.svg",
+    "img": "modules/hucaen-module/static/deities/qhontia.svg",
     "flags": {
         "scene-packer": {
             "hash": "e9c36036190c5987d048a141dc9bd2dbfe61fb42",
-            "sourceId": "Item.Qhontia0iHd8xos0"
+            "sourceId": "Item.Qhontia0npR7pyAs"
         },
         "exportSource": {
             "world": "hucaen",
@@ -88,5 +88,5 @@
         "modifiedTime": 1717450510235,
         "lastModifiedBy": "VF2UaE72a1Li54wn"
     },
-    "_id": "Qhontia0iHd8xos0"
+    "_id": "Qhontia0npR7pyAs"
 }

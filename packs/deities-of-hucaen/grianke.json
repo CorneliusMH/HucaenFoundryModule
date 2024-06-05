@@ -66,11 +66,11 @@
             "6": "Compendium.pf2e.spells-srd.Item.GYD0XZ4t3tQq6shc"
         }
     },
-    "img": "static/deities/grianke.svg",
+    "img": "modules/hucaen-module/static/deities/grianke.svg",
     "flags": {
         "scene-packer": {
             "hash": "e9c36036190c5987d048a141dc9bd2dbfe61fb42",
-            "sourceId": "Item.Grianke0Gmo6DgXL"
+            "sourceId": "Item.Grianke0iU4UyGXZ"
         },
         "exportSource": {
             "world": "hucaen",
@@ -87,5 +87,5 @@
         "modifiedTime": 1717450510235,
         "lastModifiedBy": "VF2UaE72a1Li54wn"
     },
-    "_id": "Grianke0Gmo6DgXL"
+    "_id": "Grianke0iU4UyGXZ"
 }
