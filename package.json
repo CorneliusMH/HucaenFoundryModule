@@ -2,16 +2,15 @@
   "name": "hucaen-module",
   "version": "#{VERSION}#",
   "description": "Setting-specific info about Hucaen.",
-  "main": "module.json",
+  "main": "scripts/hucaen.js",
   "license": "MIT",
   "author": "Cornelius H.",
   "dependencies": {},
   "devDependencies": {
-    "@foundryvtt/foundryvtt-cli": "^1.0.0-rc.4",
-    "prettier": "^2.8.4"
+    "@foundryvtt/foundryvtt-cli": "^1.0.0-rc.4"
   },
   "scripts": {
-    "build": "node ./scripts/hucaen.js",
-    "extract": "node ./tools/pushLDBtoYML.mjs"
+    "build": "nnpm run pack:deities",
+    "pack:deities": "fvtt package pack \"deities-of-hucaen\" --in src/packs"
   }
 }

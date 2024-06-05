@@ -32,6 +32,7 @@
         "ASSISTANT": "OWNER"
       },
       "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/green.webp",
       "flags": {}
     },
     {
@@ -78,6 +79,18 @@
         "ASSISTANT": "OWNER"
       },
       "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name" : "The Realm of Hucaen",
+      "packs": [
+        "deities-of-hucaen",
+        "tables-of-hucaen",
+        "journals-of-hucaen",
+        "npcs-of-hucaen",
+        "maps-of-hucaen"
+      ]
     }
   ],
   "url": "#{URL}#",
