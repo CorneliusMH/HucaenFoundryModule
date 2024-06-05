@@ -1,4 +1,4 @@
-console.log('todo-list | Hello World!');
+console.log('Hucaen Module | Hello World!');
 
 import { compilePack } from "@foundryvtt/foundryvtt-cli";
 import { promises as fs } from "fs";
@@ -11,7 +11,6 @@ for (const pack of packs) {
   const src = path.join("src", "packs", pack);
   const dest = path.join("packs", pack);
   await compilePack(src, dest, {
-    json: true,
     log: true
   });
 }
