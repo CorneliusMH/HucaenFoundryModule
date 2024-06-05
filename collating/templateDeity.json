@@ -1,0 +1,53 @@
+{
+  "folder": "i6ZDGprca6gJA6X8",
+    "_id": "defaultID",
+    "img": "systems/pf2e/icons/default-icons/deity.svg",
+    "name": "Default",
+  "effects": [],
+    "system": {
+        "attribute": [],
+        "category": "deity",
+        "description": {
+            "value": "default text"        
+        },
+        "domains": {
+            "alternate": [],
+            "primary": []
+        },
+        "font": [],
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Player's Guide to Hucaen 1107: Foundry Edition",
+            "author": "Cornelius"
+        },
+        "rules": [],
+        "sanctification": {
+            "modal": "musn't",
+            "what": [
+                "natural"
+            ]
+        },
+        "skill": ["basketweaving"],
+        "spells": {
+            "1": "Compendium.pf2e.spells-srd.Item.default"
+        },
+        "traits": {
+            "otherTags": [
+        "hucaen"
+      ],
+      "value": []
+    },
+        "weapons": ["the-pen"]
+    },
+    "type": "deity",
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.3X4CbgfG9YfDRE08"
+    },
+    "exportSource": {
+      "world": "hucaen",
+      "system": "pf2e"
+    }
+  }
+}

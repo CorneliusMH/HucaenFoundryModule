@@ -1,0 +1,90 @@
+{
+  "folder": "i6ZDGprca6gJA6X8",
+  "name": "Renza",
+  "type": "deity",
+  "effects": [],
+  "system": {
+        "description": {
+            "value": "<p>Renza fiercely protects those she loves, and those in need. The Blood Risen is strong emotion and adrenaline personified: She loves the thrill of combat, of love, of righteous fury.</p>\n<p><strong>Edicts</strong> do whatever it takes to survive</p>\n<p><strong>Anathema</strong> allow others to slight you without retaliation, forgive those who have wronged you, sacrifice others in your place</p>\n<p><strong>Areas of Concern</strong> lust, protection, valor, pride</p>"
+        },
+    "rules": [],
+    "slug": "renza",
+    "_migration": {
+      "version": 0.926,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.925,
+        "foundry": "11.315",
+        "system": "5.15.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Player's Guide to Hucaen 1107",
+      "authors": "Cornelius",
+      "license": "ORC",
+      "remaster": true
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy",
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "pain",
+        "cities",
+        "confidence",
+        "luck"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm"
+    ],
+    "attribute": [
+      "str",
+      "cha"
+    ],
+    
+        "skill": [
+            "athletics"
+        ],
+    "weapons": [
+      "greatpick",
+      "pick"
+    ],
+      "spells": {
+      "1": "Compendium.pf2e.spells-srd.Item.Rn2LkoSq1XhLsODV",
+      "2": "Compendium.pf2e.spells-srd.Item.TaaMEYdZXQXF0Sks",
+      "3": "Compendium.pf2e.spells-srd.Item.N1Z1oLPdBxaSgrEE"
+    }
+  },
+  "img": "systems/pf2e/icons/default-icons/deity.svg",
+  "flags": {
+    "scene-packer": {
+      "hash": "e9c36036190c5987d048a141dc9bd2dbfe61fb42",
+      "sourceId": "Item.3X4CbgfG9YfDRE08"
+    },
+    "exportSource": {
+      "world": "hucaen",
+      "system": "pf2e",
+      "coreVersion": "11.315",
+      "systemVersion": "5.16.1"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.16.1",
+    "coreVersion": "11.315",
+    "createdTime": 1712458008283,
+    "modifiedTime": 1717030207799,
+    "lastModifiedBy": "VF2UaE72a1Li54wn"
+  }
+}
