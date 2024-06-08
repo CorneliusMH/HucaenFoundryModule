@@ -11,6 +11,6 @@
   },
   "scripts": {
     "build": "npm run pack:deities",
-    "pack:deities": "fvtt package pack \"deities-of-hucaen\" --in src/packs"
+    "pack:deities": "fvtt package pack --compendiumName deities-of-hucaen -t Item --in src/packs --out packs/deities-of-hucaen/"
   }
 }
