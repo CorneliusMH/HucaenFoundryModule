@@ -103,8 +103,6 @@ jobs:
           DOWNLOAD: ${{ env.release_module_url }}
 
       # compile packs
-      - name: clear it
-        run: npm ci
       - name: compile packs
         run: npm run build
 
