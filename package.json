@@ -10,7 +10,7 @@
     "@foundryvtt/foundryvtt-cli": "^1.0.0-rc.4"
   },
   "scripts": {
-    "build": "nnpm run pack:deities",
+    "build": "npm run pack:deities",
     "pack:deities": "fvtt package pack \"deities-of-hucaen\" --in src/packs"
   }
 }
