@@ -30,7 +30,7 @@
 #   - Has the module's entry on FoundryVTT's module administration site
 #     (https://foundryvtt.com/admin) been updated?
 #
-name: Create Module Files For GitHub Release newname
+name: Create Module Files For GitHub Release
 
 
 env:
@@ -102,11 +102,11 @@ jobs:
           MANIFEST: ${{ env.latest_manifest_url }}
           DOWNLOAD: ${{ env.release_module_url }}
 
-      # # compile packs
-      # - name: installingtime
-      #   run: npm install
-      # - name: compile packs
-      #   run: npm run build
+      # compile packs
+      - name: installingtime
+        run: npm ci
+      - name: compile packs
+        run: npm run build
 
       # Create a "module.zip" archive containing all the module's required files.
       # If you have other directories or files that will need to be added to
