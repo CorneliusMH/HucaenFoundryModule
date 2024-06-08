@@ -104,6 +104,7 @@ jobs:
 
       # compile packs
       - name: compile packs
+        run: npm ci
         run: npm run build
 
       # Create a "module.zip" archive containing all the module's required files.
