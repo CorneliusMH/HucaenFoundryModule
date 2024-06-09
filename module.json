@@ -9,6 +9,9 @@
     "verified": 11,
     "maximum": 12
   },
+  "scripts":[
+    "scripts/hucaen.js"
+  ],
   "description": "Setting-specific info about Hucaen.",
   "authors": [
     {
