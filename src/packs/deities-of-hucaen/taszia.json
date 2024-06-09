@@ -1,41 +1,16 @@
 {
-    "folder": "UtKUM7TjPR08hL9M",
+    "_id": "Taszia03fREhpKO4",
+    "img": "modules/hucaen-module/static/deities/taszia.svg",
     "name": "Taszia",
-    "type": "deity",
     "effects": [],
     "system": {
+        "attribute": [
+            "dex",
+            "cha"
+        ],
+        "category": "deity",
         "description": {
             "value": "<p>Taszia ushers the dead to a peaceful rest, and abhors anything that interferes, especially the undead. The Tears Wept mourn for those who have died, and those he knows will die. He is cursed with the knowledge of the future, and shares in the form of prophecy.</p>\n<p><strong>Edicts</strong> lay bodies to rest, aid fellow travelers, explore new places</p>\n<p><strong>Anathema</strong> make decisions erratically or randomly, desecrate a corpse, rob a tomb, engage in banditry or piracy</p>\n<p><strong>Areas of Concern</strong> fate, loss, pain, prophecy</p>"
-        },
-        "rules": [],
-        "slug": "taszia",
-        "_migration": {
-            "version": 0.926,
-            "lastMigration": null,
-            "previous": {
-                "schema": 0.925,
-                "foundry": "11.315",
-                "system": "5.15.1"
-            }
-        },
-        "traits": {
-            "otherTags": [
-                "hucaen"
-            ],
-            "value": []
-        },
-        "publication": {
-            "title": "Player's Guide to Hucaen 1107: Foundry Edition",
-            "authors": "Cornelius",
-            "license": "ORC",
-            "remaster": true
-        },
-        "category": "deity",
-        "sanctification": {
-            "modal": "can",
-            "what": [
-                "holy"
-            ]
         },
         "domains": {
             "alertnate": [],
@@ -49,42 +24,37 @@
         "font": [
             "heal"
         ],
-        "attribute": [
-            "dex",
-            "cha"
-        ],
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Player's Guide to Hucaen 1107: Foundry Edition",
+            "author": "Cornelius"
+        },
+        "rules": [],
+        "sanctification": {
+            "modal": "can",
+            "what": [
+                "holy"
+            ]
+        },
         "skill": [
             "society"
-        ],
-        "weapons": [
-            "shield bow"
         ],
         "spells": {
             "1": "Compendium.pf2e.spells-srd.Item.EDABphKEPUBiMmQC",
             "4": "Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8",
             "8": "Compendium.pf2e.spells-srd.Item.U0hL0LLaprcnAyzC"
-        }
-    },
-    "img": "modules/hucaen-module/static/deities/taszia.svg",
-    "flags": {
-        "scene-packer": {
-            "hash": "e9c36036190c5987d048a141dc9bd2dbfe61fb42",
-            "sourceId": "Item.Taszia0mPwCCJKIf"
         },
-        "exportSource": {
-            "world": "hucaen",
-            "system": "pf2e",
-            "coreVersion": "11.315",
-            "systemVersion": "5.16.1"
-        }
+        "traits": {
+            "otherTags": [
+                "hucaen"
+            ],
+            "value": []
+        },
+        "weapons": [
+            "shield bow"
+        ],
+        "slug": "taszia"
     },
-    "_stats": {
-        "systemId": "pf2e",
-        "systemVersion": "5.16.1",
-        "coreVersion": "11.315",
-        "createdTime": 1712458008283,
-        "modifiedTime": 1717450510235,
-        "lastModifiedBy": "VF2UaE72a1Li54wn"
-    },
-    "_id": "Taszia0mPwCCJKIf"
+    "type": "deity"
 }

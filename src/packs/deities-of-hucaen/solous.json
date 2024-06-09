@@ -1,41 +1,16 @@
 {
-    "folder": "UtKUM7TjPR08hL9M",
+    "_id": "Solous0G134lWfls",
+    "img": "modules/hucaen-module/static/deities/solous.svg",
     "name": "Solous",
-    "type": "deity",
     "effects": [],
     "system": {
+        "attribute": [
+            "str",
+            "cha"
+        ],
+        "category": "deity",
         "description": {
             "value": "<p>Solous enjoys all things that sow discord - friends falling out over a misunderstanding, a mark falling hard for a particularly nasty con, and anything that undermines authority. The Savage Wild will happily bring down a town or even a city towards this end.</p>\n<p><strong>Edicts</strong> embarrass and expose hypocrites, humble those in power, play pranks and practical jokes</p>\n<p><strong>Anathema</strong> show remorse for your pranks, take a joke personally</p>\n<p><strong>Areas of Concern</strong> hunting, disaster, wrath, secrets</p>"
-        },
-        "rules": [],
-        "slug": "solous",
-        "_migration": {
-            "version": 0.926,
-            "lastMigration": null,
-            "previous": {
-                "schema": 0.925,
-                "foundry": "11.315",
-                "system": "5.15.1"
-            }
-        },
-        "traits": {
-            "otherTags": [
-                "hucaen"
-            ],
-            "value": []
-        },
-        "publication": {
-            "title": "Player's Guide to Hucaen 1107: Foundry Edition",
-            "authors": "Cornelius",
-            "license": "ORC",
-            "remaster": true
-        },
-        "category": "deity",
-        "sanctification": {
-            "modal": "must",
-            "what": [
-                "unholy"
-            ]
         },
         "domains": {
             "alertnate": [],
@@ -49,42 +24,37 @@
         "font": [
             "harm"
         ],
-        "attribute": [
-            "str",
-            "cha"
-        ],
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Player's Guide to Hucaen 1107: Foundry Edition",
+            "author": "Cornelius"
+        },
+        "rules": [],
+        "sanctification": {
+            "modal": "must",
+            "what": [
+                "unholy"
+            ]
+        },
         "skill": [
             "intimidation"
-        ],
-        "weapons": [
-            "war razor"
         ],
         "spells": {
             "1": "Compendium.pf2e.spells-srd.Item.zDJS8E66UI0himqV",
             "2": "Compendium.pf2e.spells-srd.Item.tlSE7Ly8vi1Dgddv",
             "5": "Compendium.pf2e.spells-srd.Item.U58aQWJ47VrI36yP"
-        }
-    },
-    "img": "modules/hucaen-module/static/deities/solous.svg",
-    "flags": {
-        "scene-packer": {
-            "hash": "e9c36036190c5987d048a141dc9bd2dbfe61fb42",
-            "sourceId": "Item.Solous0saeurEc31"
         },
-        "exportSource": {
-            "world": "hucaen",
-            "system": "pf2e",
-            "coreVersion": "11.315",
-            "systemVersion": "5.16.1"
-        }
+        "traits": {
+            "otherTags": [
+                "hucaen"
+            ],
+            "value": []
+        },
+        "weapons": [
+            "war razor"
+        ],
+        "slug": "solous"
     },
-    "_stats": {
-        "systemId": "pf2e",
-        "systemVersion": "5.16.1",
-        "coreVersion": "11.315",
-        "createdTime": 1712458008283,
-        "modifiedTime": 1717450510235,
-        "lastModifiedBy": "VF2UaE72a1Li54wn"
-    },
-    "_id": "Solous0saeurEc31"
+    "type": "deity"
 }

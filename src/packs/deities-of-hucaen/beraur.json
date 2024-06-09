@@ -1,41 +1,16 @@
 {
-    "folder": "UtKUM7TjPR08hL9M",
+    "_id": "Beraur0IYMOPkpEQ",
+    "img": "modules/hucaen-module/static/deities/beraur.svg",
     "name": "Beraur",
-    "type": "deity",
     "effects": [],
     "system": {
+        "attribute": [
+            "wis",
+            "cha"
+        ],
+        "category": "deity",
         "description": {
             "value": "<p>Beraur leads the way to the end of the tunnel, the path back to forgiveness and civilization. The Cleansing Light seeks to bring order to chaos and purity to corruption. His followers are occasionally accused of overzealousness when they burn away the rot.</p>\n<p><strong>Edicts</strong> seek out and challenge oppressors and tyrants, defend friends and the innocent</p>\n<p><strong>Anathema</strong> suffer a bully\u2019s insults to you or another without retort, abandon a friend in need</p>\n<p><strong>Areas of Concern</strong> bravery, honest redemption, the sun</p>"
-        },
-        "rules": [],
-        "slug": "beraur",
-        "_migration": {
-            "version": 0.926,
-            "lastMigration": null,
-            "previous": {
-                "schema": 0.925,
-                "foundry": "11.315",
-                "system": "5.15.1"
-            }
-        },
-        "traits": {
-            "otherTags": [
-                "hucaen"
-            ],
-            "value": []
-        },
-        "publication": {
-            "title": "Player's Guide to Hucaen 1107: Foundry Edition",
-            "authors": "Cornelius",
-            "license": "ORC",
-            "remaster": true
-        },
-        "category": "deity",
-        "sanctification": {
-            "modal": "must",
-            "what": [
-                "holy"
-            ]
         },
         "domains": {
             "alertnate": [],
@@ -49,42 +24,37 @@
         "font": [
             "heal"
         ],
-        "attribute": [
-            "wis",
-            "cha"
-        ],
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Player's Guide to Hucaen 1107: Foundry Edition",
+            "author": "Cornelius"
+        },
+        "rules": [],
+        "sanctification": {
+            "modal": "must",
+            "what": [
+                "holy"
+            ]
+        },
         "skill": [
             "medicine"
-        ],
-        "weapons": [
-            "scimitar"
         ],
         "spells": {
             "1": "Compendium.pf2e.spells-srd.Item.gKKqvLohtrSJj3BM",
             "2": "Compendium.pf2e.spells-srd.Item.EfFMLVbmkBWmzoLF",
             "6": "Compendium.pf2e.spells-srd.Item.uqlxMQQeSGWEVjki"
-        }
-    },
-    "img": "modules/hucaen-module/static/deities/beraur.svg",
-    "flags": {
-        "scene-packer": {
-            "hash": "e9c36036190c5987d048a141dc9bd2dbfe61fb42",
-            "sourceId": "Item.Beraur0myhKscpHQ"
         },
-        "exportSource": {
-            "world": "hucaen",
-            "system": "pf2e",
-            "coreVersion": "11.315",
-            "systemVersion": "5.16.1"
-        }
+        "traits": {
+            "otherTags": [
+                "hucaen"
+            ],
+            "value": []
+        },
+        "weapons": [
+            "scimitar"
+        ],
+        "slug": "beraur"
     },
-    "_stats": {
-        "systemId": "pf2e",
-        "systemVersion": "5.16.1",
-        "coreVersion": "11.315",
-        "createdTime": 1712458008283,
-        "modifiedTime": 1717450510235,
-        "lastModifiedBy": "VF2UaE72a1Li54wn"
-    },
-    "_id": "Beraur0myhKscpHQ"
+    "type": "deity"
 }

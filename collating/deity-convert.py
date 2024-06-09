@@ -4,9 +4,9 @@ import hashlib
 import random
 import string
 
-inputFilePath = '../../collating/deities.json'
-spellindexPath = '../../collating/spellIndex.json'
-template = '../../collating/renza-from-VTT-as-template.json'
+inputFilePath = '../../../collating/deities.json'
+spellindexPath = '../../../collating/spellIndex.json'
+template = '../../../collating/templateDeity.json'
 
 inputData = {}
 spellIndex = {}
@@ -44,7 +44,7 @@ def process_deity(inputBlob):
 	deityJson['sanctification'] = get_sanc(god['Divine Sanctification'])
 	deityJson['slug']			= god['Deity'].lower()
 	deityWhole['img']			= "modules/hucaen-module/static/deities/"+god['Deity'].lower()+'.svg'
-	deityWhole['flags']['scene-packer']['sourceId'] = 'Item.'+deityWhole['_id']
+	#deityWhole['flags']['scene-packer']['sourceId'] = 'Item.'+deityWhole['_id']
 	# We end here
 	deityWhole['system'] = deityJson
 	output_json(deityWhole,filename)

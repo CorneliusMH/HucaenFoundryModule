@@ -1,42 +1,16 @@
 {
-    "folder": "UtKUM7TjPR08hL9M",
+    "_id": "Lathas0Trbi7ZLJJ",
+    "img": "modules/hucaen-module/static/deities/lathas.svg",
     "name": "Lathas",
-    "type": "deity",
     "effects": [],
     "system": {
+        "attribute": [
+            "str",
+            "con"
+        ],
+        "category": "deity",
         "description": {
             "value": "<p>Lathas promises that anything is possible if you work hard enough. The Sweat Broken smiles upon those who toil, cities, and amassed wealth. They prefer worship in the form of creation for a purpose, though they do not look down upon art.</p>\n<p><strong>Edicts</strong> continually improve your abilities, work ceaselessly, express yourself through craft, provide necessities and protection for those in need</p>\n<p><strong>Anathema</strong> fail to work toward goals or grow in skill, relax excessively or give into sloth</p>\n<p><strong>Areas of Concern</strong> cities, wealth, law, forge</p>"
-        },
-        "rules": [],
-        "slug": "lathas",
-        "_migration": {
-            "version": 0.926,
-            "lastMigration": null,
-            "previous": {
-                "schema": 0.925,
-                "foundry": "11.315",
-                "system": "5.15.1"
-            }
-        },
-        "traits": {
-            "otherTags": [
-                "hucaen"
-            ],
-            "value": []
-        },
-        "publication": {
-            "title": "Player's Guide to Hucaen 1107: Foundry Edition",
-            "authors": "Cornelius",
-            "license": "ORC",
-            "remaster": true
-        },
-        "category": "deity",
-        "sanctification": {
-            "modal": "can",
-            "what": [
-                "holy",
-                "unholy"
-            ]
         },
         "domains": {
             "alertnate": [],
@@ -51,42 +25,38 @@
             "harm",
             "heal"
         ],
-        "attribute": [
-            "str",
-            "con"
-        ],
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Player's Guide to Hucaen 1107: Foundry Edition",
+            "author": "Cornelius"
+        },
+        "rules": [],
+        "sanctification": {
+            "modal": "can",
+            "what": [
+                "holy",
+                "unholy"
+            ]
+        },
         "skill": [
             "crafting"
-        ],
-        "weapons": [
-            "warhammer"
         ],
         "spells": {
             "1": "Compendium.pf2e.spells-srd.Item.TPI9fRCAYsDqpAe4",
             "4": "Compendium.pf2e.spells-srd.Item.8M03UxGXjYyDFAoy",
             "7": "Compendium.pf2e.spells-srd.Item.73rToy0v5Ra9NvL6"
-        }
-    },
-    "img": "modules/hucaen-module/static/deities/lathas.svg",
-    "flags": {
-        "scene-packer": {
-            "hash": "e9c36036190c5987d048a141dc9bd2dbfe61fb42",
-            "sourceId": "Item.Lathas0XaewA5qgF"
         },
-        "exportSource": {
-            "world": "hucaen",
-            "system": "pf2e",
-            "coreVersion": "11.315",
-            "systemVersion": "5.16.1"
-        }
+        "traits": {
+            "otherTags": [
+                "hucaen"
+            ],
+            "value": []
+        },
+        "weapons": [
+            "warhammer"
+        ],
+        "slug": "lathas"
     },
-    "_stats": {
-        "systemId": "pf2e",
-        "systemVersion": "5.16.1",
-        "coreVersion": "11.315",
-        "createdTime": 1712458008283,
-        "modifiedTime": 1717450510235,
-        "lastModifiedBy": "VF2UaE72a1Li54wn"
-    },
-    "_id": "Lathas0XaewA5qgF"
+    "type": "deity"
 }

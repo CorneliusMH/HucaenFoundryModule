@@ -4,6 +4,8 @@
   "description": "Setting-specific info about Hucaen.",
   "main": "scripts/hucaen.js",
   "license": "MIT",
+  
+    "type": "module",
   "author": "Cornelius H.",
   "dependencies": {},
   "devDependencies": {
@@ -11,7 +13,7 @@
   },
   "scripts": {
     "init": "npm ci && fvtt configure && fvtt workon \"hucaen-module\" --type \"module\"",
-    // "build": "npm run pack:deities",
+    "build": "npm run pack:deities",
     "pack:deities": "fvtt package workon \"deities-of-hucaen\" && fvtt package pack --in src/packs"
   }
 }

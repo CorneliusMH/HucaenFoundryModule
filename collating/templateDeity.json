@@ -1,5 +1,4 @@
 {
-  "folder": "i6ZDGprca6gJA6X8",
     "_id": "defaultID",
     "img": "systems/pf2e/icons/default-icons/deity.svg",
     "name": "Default",
@@ -40,14 +39,5 @@
     },
         "weapons": ["the-pen"]
     },
-    "type": "deity",
-  "flags": {
-    "scene-packer": {
-      "sourceId": "Item.3X4CbgfG9YfDRE08"
-    },
-    "exportSource": {
-      "world": "hucaen",
-      "system": "pf2e"
-    }
-  }
+    "type": "deity"
 }

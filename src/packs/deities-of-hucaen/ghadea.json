@@ -1,41 +1,16 @@
 {
-    "folder": "UtKUM7TjPR08hL9M",
+    "_id": "Ghadea0IcjXT7tWI",
+    "img": "modules/hucaen-module/static/deities/ghadea.svg",
     "name": "Ghadea",
-    "type": "deity",
     "effects": [],
     "system": {
+        "attribute": [
+            "dex",
+            "cha"
+        ],
+        "category": "deity",
         "description": {
             "value": "<p>Ghadea presides over any artful creation, from grand symphonies and towering statues to fashionable clothes and . The Cosmic Artist is invoked in the construction of many things, from a simple horseshoe to the factories and towers of Smackels-on-the-River.</p>\n<p><strong>Edicts</strong> choose and perfect an art, lead by example, respect the forge</p>\n<p><strong>Anathema</strong> destroy art or allow it to be destroyed, unless saving a life or pursuing greater art; intentionally create inferior works, </p>\n<p><strong>Areas of Concern</strong> art, beauty, industry, trade</p>"
-        },
-        "rules": [],
-        "slug": "ghadea",
-        "_migration": {
-            "version": 0.926,
-            "lastMigration": null,
-            "previous": {
-                "schema": 0.925,
-                "foundry": "11.315",
-                "system": "5.15.1"
-            }
-        },
-        "traits": {
-            "otherTags": [
-                "hucaen"
-            ],
-            "value": []
-        },
-        "publication": {
-            "title": "Player's Guide to Hucaen 1107: Foundry Edition",
-            "authors": "Cornelius",
-            "license": "ORC",
-            "remaster": true
-        },
-        "category": "deity",
-        "sanctification": {
-            "modal": "can",
-            "what": [
-                "holy"
-            ]
         },
         "domains": {
             "alertnate": [],
@@ -49,42 +24,37 @@
         "font": [
             "heal"
         ],
-        "attribute": [
-            "dex",
-            "cha"
-        ],
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Player's Guide to Hucaen 1107: Foundry Edition",
+            "author": "Cornelius"
+        },
+        "rules": [],
+        "sanctification": {
+            "modal": "can",
+            "what": [
+                "holy"
+            ]
+        },
         "skill": [
             "crafting"
-        ],
-        "weapons": [
-            "light hammer"
         ],
         "spells": {
             "1": "Compendium.pf2e.spells-srd.Item.2oH5IufzdESuYxat",
             "4": "Compendium.pf2e.spells-srd.Item.TUj8eugNqAvB1vVR",
             "6": "Compendium.pf2e.spells-srd.Item.McnPlLFvKtQVXNcG"
-        }
-    },
-    "img": "modules/hucaen-module/static/deities/ghadea.svg",
-    "flags": {
-        "scene-packer": {
-            "hash": "e9c36036190c5987d048a141dc9bd2dbfe61fb42",
-            "sourceId": "Item.Ghadea0Eg9o5ejlL"
         },
-        "exportSource": {
-            "world": "hucaen",
-            "system": "pf2e",
-            "coreVersion": "11.315",
-            "systemVersion": "5.16.1"
-        }
+        "traits": {
+            "otherTags": [
+                "hucaen"
+            ],
+            "value": []
+        },
+        "weapons": [
+            "light hammer"
+        ],
+        "slug": "ghadea"
     },
-    "_stats": {
-        "systemId": "pf2e",
-        "systemVersion": "5.16.1",
-        "coreVersion": "11.315",
-        "createdTime": 1712458008283,
-        "modifiedTime": 1717450510235,
-        "lastModifiedBy": "VF2UaE72a1Li54wn"
-    },
-    "_id": "Ghadea0Eg9o5ejlL"
+    "type": "deity"
 }

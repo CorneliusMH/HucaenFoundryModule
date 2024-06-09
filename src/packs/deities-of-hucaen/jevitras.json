@@ -1,42 +1,16 @@
 {
-    "folder": "UtKUM7TjPR08hL9M",
+    "_id": "Jevitras0plJ6xRM",
+    "img": "modules/hucaen-module/static/deities/jevitras.svg",
     "name": "Jevitras",
-    "type": "deity",
     "effects": [],
     "system": {
+        "attribute": [
+            "int",
+            "wis"
+        ],
+        "category": "deity",
         "description": {
             "value": "<p>Jevitras searches for new knowledge and new magic relentlessly. The Keen Librarian has directed their followers to build libraries and laboratories Instead of temples. They prefer if people don't get hurt in the process, but only so much.</p>\n<p><strong>Edicts</strong> seek out magical power and use it</p>\n<p><strong>Anathema</strong> pursue mundane paths over magical ones</p>\n<p><strong>Areas of Concern</strong> magic, knowledge, alchemy</p>"
-        },
-        "rules": [],
-        "slug": "jevitras",
-        "_migration": {
-            "version": 0.926,
-            "lastMigration": null,
-            "previous": {
-                "schema": 0.925,
-                "foundry": "11.315",
-                "system": "5.15.1"
-            }
-        },
-        "traits": {
-            "otherTags": [
-                "hucaen"
-            ],
-            "value": []
-        },
-        "publication": {
-            "title": "Player's Guide to Hucaen 1107: Foundry Edition",
-            "authors": "Cornelius",
-            "license": "ORC",
-            "remaster": true
-        },
-        "category": "deity",
-        "sanctification": {
-            "modal": "can",
-            "what": [
-                "holy",
-                "unholy"
-            ]
         },
         "domains": {
             "alertnate": [],
@@ -51,42 +25,38 @@
             "harm",
             "heal"
         ],
-        "attribute": [
-            "int",
-            "wis"
-        ],
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Player's Guide to Hucaen 1107: Foundry Edition",
+            "author": "Cornelius"
+        },
+        "rules": [],
+        "sanctification": {
+            "modal": "can",
+            "what": [
+                "holy",
+                "unholy"
+            ]
+        },
         "skill": [
             "arcana"
-        ],
-        "weapons": [
-            "staff"
         ],
         "spells": {
             "1": "Compendium.pf2e.spells-srd.Item.TjWHgXqPv5jywMti",
             "2": "Compendium.pf2e.spells-srd.Item.vTQvfYu2llKQedmY",
             "8": "Compendium.pf2e.spells-srd.Item.Oj1PJBMQD9vuwCv7"
-        }
-    },
-    "img": "modules/hucaen-module/static/deities/jevitras.svg",
-    "flags": {
-        "scene-packer": {
-            "hash": "e9c36036190c5987d048a141dc9bd2dbfe61fb42",
-            "sourceId": "Item.Jevitras08wSQ6ji"
         },
-        "exportSource": {
-            "world": "hucaen",
-            "system": "pf2e",
-            "coreVersion": "11.315",
-            "systemVersion": "5.16.1"
-        }
+        "traits": {
+            "otherTags": [
+                "hucaen"
+            ],
+            "value": []
+        },
+        "weapons": [
+            "staff"
+        ],
+        "slug": "jevitras"
     },
-    "_stats": {
-        "systemId": "pf2e",
-        "systemVersion": "5.16.1",
-        "coreVersion": "11.315",
-        "createdTime": 1712458008283,
-        "modifiedTime": 1717450510235,
-        "lastModifiedBy": "VF2UaE72a1Li54wn"
-    },
-    "_id": "Jevitras08wSQ6ji"
+    "type": "deity"
 }
