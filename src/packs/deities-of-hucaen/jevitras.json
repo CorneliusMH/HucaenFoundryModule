@@ -1,8 +1,11 @@
 {
-    "_id": "Jevitras0plJ6xRM",
+    "_id": "aNfP9WDwWLoAQSqL",
+    "_key": "!items!aNfP9WDwWLoAQSqL",
+    "effects": [],
+    "folder": "t7V2VmpBmXcc60tQ",
     "img": "modules/hucaen-module/static/deities/jevitras.svg",
     "name": "Jevitras",
-    "effects": [],
+    "sort": 0,
     "system": {
         "attribute": [
             "int",
@@ -26,10 +29,10 @@
             "heal"
         ],
         "publication": {
+            "author": "Cornelius",
             "license": "ORC",
             "remaster": true,
-            "title": "Player's Guide to Hucaen 1107: Foundry Edition",
-            "author": "Cornelius"
+            "title": "Player's Guide to Hucaen 1107: Foundry Edition"
         },
         "rules": [],
         "sanctification": {

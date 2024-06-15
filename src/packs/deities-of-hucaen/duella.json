@@ -1,8 +1,11 @@
 {
-    "_id": "Duella0MTwiznTBt",
+    "_id": "vPtmAhiaIGKHbHZP",
+    "_key": "!items!vPtmAhiaIGKHbHZP",
+    "effects": [],
+    "folder": "t7V2VmpBmXcc60tQ",
     "img": "modules/hucaen-module/static/deities/duella.svg",
     "name": "Duella",
-    "effects": [],
+    "sort": 0,
     "system": {
         "attribute": [
             "con",
@@ -25,10 +28,10 @@
             "harm"
         ],
         "publication": {
+            "author": "Cornelius",
             "license": "ORC",
             "remaster": true,
-            "title": "Player's Guide to Hucaen 1107: Foundry Edition",
-            "author": "Cornelius"
+            "title": "Player's Guide to Hucaen 1107: Foundry Edition"
         },
         "rules": [],
         "sanctification": {

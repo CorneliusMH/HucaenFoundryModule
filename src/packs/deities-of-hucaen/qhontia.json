@@ -1,8 +1,11 @@
 {
-    "_id": "Qhontia03RShGSOh",
+    "_id": "rblrkr0hfuRMKSIm",
+    "_key": "!items!rblrkr0hfuRMKSIm",
+    "effects": [],
+    "folder": "t7V2VmpBmXcc60tQ",
     "img": "modules/hucaen-module/static/deities/qhontia.svg",
     "name": "Qhontia",
-    "effects": [],
+    "sort": 0,
     "system": {
         "attribute": [
             "con",
@@ -26,10 +29,10 @@
             "heal"
         ],
         "publication": {
+            "author": "Cornelius",
             "license": "ORC",
             "remaster": true,
-            "title": "Player's Guide to Hucaen 1107: Foundry Edition",
-            "author": "Cornelius"
+            "title": "Player's Guide to Hucaen 1107: Foundry Edition"
         },
         "rules": [],
         "sanctification": {

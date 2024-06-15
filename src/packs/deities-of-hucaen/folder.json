@@ -1,0 +1,19 @@
+{
+  "name": "Deities of Hucaen",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "t7V2VmpBmXcc60tQ",
+  "sort": 100000,
+  "color": "#e1ff00",
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.16.1",
+    "coreVersion": "11.315",
+    "createdTime": 1718418467026,
+    "modifiedTime": 1718419657323,
+    "lastModifiedBy": "WTeboiv63Yr9IOB5"
+  },
+  "_key": "!folders!t7V2VmpBmXcc60tQ"
+}

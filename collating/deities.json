@@ -410,7 +410,7 @@
         "Description": "Beraur leads the way to the end of the tunnel, the path back to forgiveness and civilization. The Cleansing Light seeks to bring order to chaos and purity to corruption. His followers are occasionally accused of overzealousness when they burn away the rot.",
         "Areas of Concern": "bravery, honest redemption, the sun",
         "Edicts": "seek out and challenge oppressors and tyrants, defend friends and the innocent",
-        "Anathema": "suffer a bully\u2019s insults to you or another without retort, abandon a friend in need",
+        "Anathema": "suffer a bully's insults to you or another without retort, abandon a friend in need",
         "Divine Attribute": "Wisdom or Charisma",
         "Cleric Spells": "1st: force barrage, 2nd: clear mind, 6th: truesight",
         "Divine Font": "Heal",
@@ -418,6 +418,7 @@
         "Divine Skill": "Medicine",
         "Domains": "healing, protection, sun, repose",
         "Favored Weapon": "scimitar",
+        "id":"pbxv8Juml3yNQ6TF",
         "0": "15",
         "": "Hucaen City,Otari,Timbermont,Tawdryquay,Willowglade,Bovinslate,Bridgegrove,Corsabell,Haven,Lamarich Key,Skelnelly Manor,The Anchor Archipelago,Brentram Island,Fomatroy,Tanidam"
     },
@@ -441,11 +442,13 @@
         "Domains": "dreams, darkness, nightmares, moon",
         "Favored Weapon": "starknife",
         "0": "9",
-        "": "Hucaen City,Aerie,Rockyville,Pewterhaunt,Bridgegrove,Corsabell,Nilsethemar,Skelnelly Manor,Werronga"
+        "": "Hucaen City,Aerie,Rockyville,Pewterhaunt,Bridgegrove,Corsabell,Nilsethemar,Skelnelly Manor,Werronga",
+        "id": "vPtmAhiaIGKHbHZP"
     },
     {
         "Source": "Hucaen Pantheon",
         "Deity": "Ghadea",
+        "id":"pDYdsS0cttRbwfUh",
         "Title": "The Cosmic Artist",
         "Pronoun": "She/Her",
         "Sentence": "2",
@@ -468,6 +471,7 @@
     {
         "Source": "Hucaen Pantheon",
         "Deity": "Grianke",
+        "id":"2DlWK0zVgOAZGCjs",
         "Title": "The Eternal Judge",
         "Pronoun": "She/Her",
         "Sentence": "3",
@@ -490,6 +494,7 @@
     {
         "Source": "Hucaen Pantheon",
         "Deity": "Jevitras",
+        "id":"aNfP9WDwWLoAQSqL",
         "Title": "The Keen Librarian",
         "Pronoun": "They/Them",
         "Sentence": "3",
@@ -512,6 +517,7 @@
     {
         "Source": "Hucaen Pantheon",
         "Deity": "Qhontia",
+        "id":"rblrkr0hfuRMKSIm",
         "Title": "The Reborn Death",
         "Pronoun": "They/Them",
         "Sentence": "2",
@@ -534,6 +540,7 @@
     {
         "Source": "Hucaen Pantheon",
         "Deity": "Solous",
+        "id":"62AaIfVaiOsZHiHh",
         "Title": "The Savage Wild",
         "Pronoun": "He/Him",
         "Sentence": "2",
@@ -556,6 +563,7 @@
     {
         "Source": "Hucaen Pantheon",
         "Deity": "Taveyar",
+        "id":"mPo46GDlDw5CV2mi",
         "Title": "The Dread Archduke",
         "Pronoun": "He/Him",
         "Sentence": "3",
@@ -578,6 +586,7 @@
     {
         "Source": "Hucaen Pantheon",
         "Deity": "Renza",
+        "id":"0sAGHwp0fW81dwo4",
         "Title": "The Blood Risen",
         "Pronoun": "She/Her",
         "Sentence": "2",
@@ -600,6 +609,7 @@
     {
         "Source": "Hucaen Pantheon",
         "Deity": "Lathas",
+        "id":"fTamWoNMO92SWhpK",
         "Title": "The Sweat Broken",
         "Pronoun": "They/Them",
         "Sentence": "3",
@@ -622,6 +632,7 @@
     {
         "Source": "Hucaen Pantheon",
         "Deity": "Taszia",
+        "id":"c9i3Wcro4YCNnoHW",
         "Title": "The Tears Wept",
         "Pronoun": "He/Him",
         "Sentence": "3",

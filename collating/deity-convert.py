@@ -37,13 +37,14 @@ def process_deity(inputBlob):
 	else:
 		deityJson['font'] 		= [god['Divine Font'].lower()]
 	deityJson['domains']		= get_domains(god['Domains'])
-	deityWhole['_id'] 			= get_id(god['Deity'])
+	deityWhole['_id'] 			= god['id']
 	deityWhole['name']			= god['Deity']
 	deityJson['skill']			= [god['Divine Skill'].lower()]
 	deityJson['description'] 	= get_desc(god)
 	deityJson['sanctification'] = get_sanc(god['Divine Sanctification'])
 	deityJson['slug']			= god['Deity'].lower()
 	deityWhole['img']			= "modules/hucaen-module/static/deities/"+god['Deity'].lower()+'.svg'
+	deityWhole['_key']			= "!items!"+god['id']
 	#deityWhole['flags']['scene-packer']['sourceId'] = 'Item.'+deityWhole['_id']
 	# We end here
 	deityWhole['system'] = deityJson

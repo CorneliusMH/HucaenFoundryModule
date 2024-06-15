@@ -1,8 +1,11 @@
 {
-    "_id": "Taszia03fREhpKO4",
+    "_id": "c9i3Wcro4YCNnoHW",
+    "_key": "!items!c9i3Wcro4YCNnoHW",
+    "effects": [],
+    "folder": "t7V2VmpBmXcc60tQ",
     "img": "modules/hucaen-module/static/deities/taszia.svg",
     "name": "Taszia",
-    "effects": [],
+    "sort": 0,
     "system": {
         "attribute": [
             "dex",
@@ -25,10 +28,10 @@
             "heal"
         ],
         "publication": {
+            "author": "Cornelius",
             "license": "ORC",
             "remaster": true,
-            "title": "Player's Guide to Hucaen 1107: Foundry Edition",
-            "author": "Cornelius"
+            "title": "Player's Guide to Hucaen 1107: Foundry Edition"
         },
         "rules": [],
         "sanctification": {

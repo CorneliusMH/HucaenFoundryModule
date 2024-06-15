@@ -1,8 +1,11 @@
 {
-    "_id": "Renza0KuwUlkGXZC",
+    "_id": "0sAGHwp0fW81dwo4",
+    "_key": "!items!0sAGHwp0fW81dwo4",
+    "effects": [],
+    "folder": "t7V2VmpBmXcc60tQ",
     "img": "modules/hucaen-module/static/deities/renza.svg",
     "name": "Renza",
-    "effects": [],
+    "sort": 0,
     "system": {
         "attribute": [
             "str",
@@ -25,10 +28,10 @@
             "harm"
         ],
         "publication": {
+            "author": "Cornelius",
             "license": "ORC",
             "remaster": true,
-            "title": "Player's Guide to Hucaen 1107: Foundry Edition",
-            "author": "Cornelius"
+            "title": "Player's Guide to Hucaen 1107: Foundry Edition"
         },
         "rules": [],
         "sanctification": {

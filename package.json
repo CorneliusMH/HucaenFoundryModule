@@ -12,8 +12,8 @@
     "@foundryvtt/foundryvtt-cli": "^1.0.0-rc.4"
   },
   "scripts": {
-    "init": "npm ci && fvtt configure && fvtt workon \"hucaen-module\" --type \"module\"",
+    "init": "npm ci && fvtt configure set installPath '/Applications/Foundry Virtual Tabletop 11.app/Contents/MacOS' && fvtt configure set dataPath '/Users/zorkon/Library/Application Support/FoundryVTT' && fvtt workon \"hucaen-module\" --type \"module\"",
     "build": "npm run pack:deities",
-    "pack:deities": "fvtt package workon \"deities-of-hucaen\" && fvtt package pack --in src/packs"
+    "pack:deities": "fvtt package pack --in src/packs --out packs -n deities-of-hucaen -r"
   }
 }
