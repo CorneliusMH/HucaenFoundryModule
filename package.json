@@ -12,9 +12,9 @@
     "@foundryvtt/foundryvtt-cli": "^1.0.0-rc.4"
   },
   "scripts": {
-    "init": "npm ci && fvtt workon \"hucaen-module\" --type \"module\" && npm run build",
-    "build": "npm run packs",
+    "init": "npm ci && npm run build",
+    "build": "fvtt package workon hucaen-module --type Module && fvtt configure view && npm run packs",
     "packs": "npm run pack:deities",
-    "pack:deities": "fvtt package pack --id hucaen-module --Type Module -n deities-of-hucaen --in=./src/packs/deities-of-hucaen --out=./packs deities-of-hucaen"
+    "pack:deities": "fvtt package pack -n deities-of-hucaen --in=./src/packs/deities-of-hucaen --out=./packs deities-of-hucaen"
   }
 }
