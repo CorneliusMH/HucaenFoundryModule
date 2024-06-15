@@ -103,10 +103,8 @@ jobs:
           DOWNLOAD: ${{ env.release_module_url }}
 
       # compile packs
-      # - name: installingtime
-      #   run: npm run init
-      # - name: compile packs
-      #   run: npm run build
+      - name: compile packs
+        run: npm run build
 
       # Create a "module.zip" archive containing all the module's required files.
       # If you have other directories or files that will need to be added to

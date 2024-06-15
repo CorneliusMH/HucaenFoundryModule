@@ -2,7 +2,7 @@
     "_id": "fTamWoNMO92SWhpK",
     "_key": "!items!fTamWoNMO92SWhpK",
     "effects": [],
-    "folder": "t7V2VmpBmXcc60tQ",
+    "folder": null,
     "img": "modules/hucaen-module/static/deities/lathas.svg",
     "name": "Lathas",
     "sort": 0,
@@ -29,7 +29,7 @@
             "heal"
         ],
         "publication": {
-            "author": "Cornelius",
+            "authors": "Cornelius",
             "license": "ORC",
             "remaster": true,
             "title": "Player's Guide to Hucaen 1107: Foundry Edition"

@@ -2,7 +2,7 @@
    "_id" : "defaultID",
    "_key" : "defaultKey",
    "effects" : [],
-   "folder" : "t7V2VmpBmXcc60tQ",
+   "folder" : null,
    "img" : "systems/pf2e/icons/default-icons/deity.svg",
    "name" : "Default",
    "sort" : 0,
@@ -18,7 +18,7 @@
       },
       "font" : [],
       "publication" : {
-         "author" : "Cornelius",
+         "authors" : "Cornelius",
          "license" : "ORC",
          "remaster" : true,
          "title" : "Player's Guide to Hucaen 1107: Foundry Edition"

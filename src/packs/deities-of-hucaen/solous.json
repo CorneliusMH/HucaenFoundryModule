@@ -2,7 +2,7 @@
     "_id": "62AaIfVaiOsZHiHh",
     "_key": "!items!62AaIfVaiOsZHiHh",
     "effects": [],
-    "folder": "t7V2VmpBmXcc60tQ",
+    "folder": null,
     "img": "modules/hucaen-module/static/deities/solous.svg",
     "name": "Solous",
     "sort": 0,
@@ -28,7 +28,7 @@
             "harm"
         ],
         "publication": {
-            "author": "Cornelius",
+            "authors": "Cornelius",
             "license": "ORC",
             "remaster": true,
             "title": "Player's Guide to Hucaen 1107: Foundry Edition"

@@ -13,7 +13,7 @@
   },
   "scripts": {
     "init": "npm ci && fvtt configure set installPath '/Applications/Foundry Virtual Tabletop 11.app/Contents/MacOS' && fvtt configure set dataPath '/Users/zorkon/Library/Application Support/FoundryVTT' && fvtt workon \"hucaen-module\" --type \"module\"",
-    "build": "npm run pack:deities",
+    "build": "npm run init && npm run pack:deities",
     "pack:deities": "fvtt package pack --in src/packs --out packs -n deities-of-hucaen -r"
   }
 }
