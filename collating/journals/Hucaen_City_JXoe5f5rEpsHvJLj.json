@@ -1,0 +1,96 @@
+{
+  "name": "Hucaen City",
+  "_id": "JXoe5f5rEpsHvJLj",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "New Page",
+      "type": "text",
+      "_id": "AI8dx6vytVm8otbr",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>{{indented {{title Religions}} Religions}}<br />{{indented {{title Threats}} Threats}}<br />{{indented {{title Specialty}} Specialty Description}}<br />{{indented {{title Specialty2}} Specialty2 Description}}</p>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1,
+        "WTeboiv63Yr9IOB5": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.16.1",
+        "coreVersion": "11.315",
+        "createdTime": 1718583290346,
+        "modifiedTime": 1718583366606,
+        "lastModifiedBy": "WTeboiv63Yr9IOB5"
+      },
+      "_key": "!journal.pages!JXoe5f5rEpsHvJLj.AI8dx6vytVm8otbr"
+    },
+    {
+      "sort": 200000,
+      "name": "New Page",
+      "type": "image",
+      "_id": "XgxJf9B4rKOmV2N2",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/hucaen-module/static/deities/grianke.svg",
+      "system": {},
+      "ownership": {
+        "default": -1,
+        "WTeboiv63Yr9IOB5": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.16.1",
+        "coreVersion": "11.315",
+        "createdTime": 1718583379548,
+        "modifiedTime": 1718583409765,
+        "lastModifiedBy": "WTeboiv63Yr9IOB5"
+      },
+      "_key": "!journal.pages!JXoe5f5rEpsHvJLj.XgxJf9B4rKOmV2N2"
+    }
+  ],
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.16.1",
+    "coreVersion": "11.315",
+    "createdTime": 1718583276606,
+    "modifiedTime": 1718583527144,
+    "lastModifiedBy": "WTeboiv63Yr9IOB5"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "WTeboiv63Yr9IOB5": 3
+  },
+  "_key": "!journal!JXoe5f5rEpsHvJLj"
+}

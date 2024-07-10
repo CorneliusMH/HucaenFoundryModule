@@ -4,9 +4,9 @@ import hashlib
 import random
 import string
 
-inputFilePath = '../../../collating/deities.json'
-spellindexPath = '../../../collating/spellIndex.json'
-template = '../../../collating/templateDeity.json'
+inputFilePath = './collating/deities.json'
+spellindexPath = './collating/spellIndex.json'
+template = './collating/templateDeity.json'
 
 inputData = {}
 spellIndex = {}
@@ -48,7 +48,7 @@ def process_deity(inputBlob):
 	#deityWhole['flags']['scene-packer']['sourceId'] = 'Item.'+deityWhole['_id']
 	# We end here
 	deityWhole['system'] = deityJson
-	output_json(deityWhole,filename)
+	output_json(deityWhole,'./src/packs/deities-of-hucaen/'+filename)
 
 def spellLookup(spell):
 	tag = spellIndex[spell]

@@ -1,2 +1,7 @@
 .DS_Store
 node_modules
+collating/premiumContent
+creatureFileIndex.json
+spellFileIndex.json
+itemFileIndex.json
+map-pf2e.json

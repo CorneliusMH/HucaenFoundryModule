@@ -15,6 +15,7 @@
     "init": "npm ci",
     "build": "npm ci && fvtt package workon hucaen-module --type Module && fvtt configure view && npm run packs",
     "packs": "npm run pack:deities",
-    "pack:deities": "fvtt package pack -n deities-of-hucaen --in=./src/packs/deities-of-hucaen --out=./packs deities-of-hucaen"
+    "pack:deities": "fvtt package pack -n deities-of-hucaen --in=./src/packs/deities-of-hucaen --out=./packs deities-of-hucaen",
+    "pack:actors": "fvtt package pack -n actors-of-hucaen --in=./src/packs/actors-of-hucaen --out=./packs actors-of-hucaen"
   }
 }
