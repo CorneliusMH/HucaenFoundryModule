@@ -10,11 +10,7 @@ spellFileIndexArray = {}
 itemFileIndexArray = {}
 
 
-# fvtt package unpack --out ~/github/HucaenFoundryModule/collating/AB/ -n abyssalbrews-vol-1-rare
-# fvtt package unpack --out ~/github/HucaenFoundryModule/collating/AB/ -n abyssalbrews-vol-1-unique
-# fvtt package unpack --out ~/github/HucaenFoundryModule/collating/AB/ -n abyssalbrews-vol-1-uncommon
-# fvtt package unpack --out ~/github/HucaenFoundryModule/collating/AB/ -n abyssalbrews-vol-1-common
-# fvtt package unpack --out ~/github/HucaenFoundryModule/collating/AB/ -n abyssalbrews-vol-1-actors
+
 
 critterregex = re.compile(r"-")
 spellregex = re.compile(r"spells")
@@ -91,6 +87,8 @@ for root, dirs, files in os.walk(gitdir+'/HucaenFoundryModule/collating/premiumC
 				if data['type'] in ['consumable','equipment']:
 					itemIndexArray[data['name']] = data['_id']
 					itemFileIndexArray[data['name']] = root+'/'+i
+				if data['type'] not in ['consumable','equipment','spell','npc']:
+					print(i,data['type'])
 
 
 with open('creatureIndex.json', 'w') as jsonout:
