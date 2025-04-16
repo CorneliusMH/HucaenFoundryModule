@@ -82,6 +82,17 @@
         "ASSISTANT": "OWNER"
       },
       "flags": {}
+    },
+    {
+      "name": "items-of-hucaen",
+      "label": "Items of Hucaen",
+      "path": "packs/itemd-of-hucaen",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     }
   ],
   "packFolders": [
@@ -92,7 +103,8 @@
         "tables-of-hucaen",
         "journals-of-hucaen",
         "npcs-of-hucaen",
-        "maps-of-hucaen"
+        "maps-of-hucaen",
+        "items-of-hucaen"
       ]
     }
   ],
