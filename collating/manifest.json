@@ -1,0 +1,92 @@
+    {
+      "name": "Shipping Manifest - Ælendor Fineries & Soaps",
+      "type": "equipment",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Shipped by:</p>\n<p>Sender: Ælendor Fineries &amp; Soaps</p>\n<p>To be delivered to: The Witching Flour, Hucaen City</p>\n<p>Contains:</p>\n<ul>\n<li>Archaic Wayfinder</li>\n<li>Brawler's Brew</li>\n<li>Dwarven Daisy (Moderate)</li>\n<li>Ectoplasmic Tracer</li>\n<li>Effervescent Ampoule</li>\n<li>Holy Steam Ball</li>\n<li>Holy Water</li>\n<li>Masquerade Scarf</li>\n<li>Portent</li>\n<li>Recording Rod (Basic)</li>\n<li>Sneezing Powder</li>\n<li>Sparkblade</li>\n<li>Vexing Cube</li>\n</ul>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.926,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Hucaen 1107",
+          "authors": "Cornelius",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 2
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {}
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Object",
+            "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "carried"
+        },
+        "subitems": []
+      },
+      "_id": "Cf0QLiYSLj1pYU6a",
+      "img": "systems/pf2e/icons/default-icons/equipment.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "VF2UaE72a1Li54wn": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "b7e19e5ecae11059c8be79231141ca4a743da25e"
+        }
+      },
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.16.1",
+        "coreVersion": "11.315",
+        "createdTime": 1716500490563,
+        "modifiedTime": 1717596520046,
+        "lastModifiedBy": "VF2UaE72a1Li54wn"
+      }
+    }

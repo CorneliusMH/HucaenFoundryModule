@@ -5,9 +5,9 @@
   "library": "false",
   "manifestPlusVersion": "1.2.0",
   "compatibility": {
-    "minimum": 10,
-    "verified": 11,
-    "maximum": 12
+    "minimum": 11,
+    "verified": 12,
+    "maximum": 13
   },
   "scripts":[
     "scripts/hucaen.js"
