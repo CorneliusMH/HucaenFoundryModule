@@ -86,7 +86,7 @@
     {
       "name": "items-of-hucaen",
       "label": "Items of Hucaen",
-      "path": "packs/itemd-of-hucaen",
+      "path": "packs/items-of-hucaen",
       "system": "pf2e",
       "type": "Item",
       "ownership": {
