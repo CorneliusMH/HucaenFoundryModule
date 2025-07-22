@@ -1,9 +1,10 @@
 {
     "_id": "bzhJNnkIXdVRbjAA",
     "img": "icons/weapons/polearms/spear-hooked-broad.webp",
-    "name": "Ak'Moth",
+    "name": "Ybydwy Ak'Moth",
     "system": {
-        "baseItem": "Ak'Moth",
+        "baseItem": "ybydwy-akmoth",
+        "slug": "ybydwy-akmoth",
         "bonus": {
             "value": 0
         },
@@ -30,6 +31,19 @@
             "max": 0,
             "value": 0
         },
+        "identification": {
+            "status": "identified",
+            "unidentified": {
+            "name": "Unusual Weapon",
+            "img": "systems/pf2e/icons/unidentified_item_icons/weapon.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
         "level": {
             "value": 0
         },
@@ -45,7 +59,8 @@
         "publication": {
             "license": "ORC",
             "remaster": true,
-            "title": "Hucaen 1107"
+            "authors":"Cornelius",
+            "title": "Hucaen 1108"
         },
         "quantity": 1,
         "range": null,

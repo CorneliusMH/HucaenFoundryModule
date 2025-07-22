@@ -119,5 +119,29 @@
       "type": "icon",
       "url": "https://avatars2.githubusercontent.com/u/71292812?s=400&u=ccdb4eeb7abf551ca8f314e5a9bfd0479a4d3d41&v=4"
     }
-  ]
+  ],
+  "flags": {
+    "hucaen-module": {
+      "pf2e-homebrew": {
+        "baseWeapons": {
+            "ybydwy-akmoth": "Ybydwy Ak'Moth"
+        },
+        "creatureTraits": {
+            "ybydwy": "Ybydwy"
+        },
+        "weaponTraits": {
+            "ybydwy": {
+                "label": "Ybydwy",
+                "description": "A weapon with this trait is a weapon which Ybydwy craft and use."
+            }
+        },
+        "featTraits": {
+            "ybydwy": "Ybydwy"
+        },
+        "languages": {
+            "ybydwy": "Ybydwy"
+        }
+      }
+    }
+  }
 }
