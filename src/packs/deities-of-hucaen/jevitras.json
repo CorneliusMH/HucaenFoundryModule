@@ -32,7 +32,7 @@
             "authors": "Cornelius",
             "license": "ORC",
             "remaster": true,
-            "title": "Player's Guide to Hucaen 100ni: Foundry Edition"
+            "title": "Player's Guide to Hucaen: Foundry Edition"
         },
         "rules": [],
         "sanctification": {
@@ -54,7 +54,7 @@
             "6": "Compendium.pf2e.spells-srd.Item.Scrying",
             "7": "Compendium.pf2e.spells-srd.Item.Recall Legacy",
             "8": "Compendium.pf2e.spells-srd.Item.Mimic Spell",
-            "9": "Compendium.pf2e.spells-srd.Item.Bilocation",
+            "9": "Compendium.pf2e.spells-srd.Item.Bilocation"
         },
         "traits": {
             "otherTags": [
