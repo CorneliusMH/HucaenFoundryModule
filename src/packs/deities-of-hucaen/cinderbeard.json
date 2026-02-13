@@ -1,0 +1,63 @@
+{
+    "_id": "Cinderbeard",
+    "_key": "!items!cinderbeard",
+    "effects": [],
+    "folder": null,
+    "img": "modules/hucaen-module/static/deities/cinderbeard.png",
+    "name": "Cinderbeard",
+    "sort": 0,
+    "system": {
+        "attribute": [
+            "dex",
+            "cha"
+        ],
+        "category": "deity",
+        "description": {
+            "value": "<p>Cinderbeard murdered Lathas to join the Hucaen pantheon. The Haunted Doom helps those who help themselves, by whatever means necessary. His worship is led in secret by the most ambitious and unscrupulous in society.</p>\n<p><strong>Edicts</strong> change the world, act with ambition or not at all, keep your plans secret</p>\n<p><strong>Anathema</strong> deny your appetites, seek the approval of society, betray those in the church above you</p>\n<p><strong>Areas of Concern</strong> ambition, murder, secrets, ghosts</p>"
+        },
+        "domains": {
+            "alertnate": [],
+            "primary": [
+                "ambition",
+                "change",
+                "secrecy",
+                "undeath"
+            ]
+        },
+        "font": [
+            "harm"
+        ],
+        "publication": {
+            "authors": "Cornelius",
+            "license": "ORC",
+            "remaster": true,
+            "title": "Player's Guide to Hucaen 1107: Foundry Edition"
+        },
+        "rules": [],
+        "sanctification": {
+            "modal": "must",
+            "what": [
+                "unholy"
+            ]
+        },
+        "skill": [
+            "stealth"
+        ],
+        "spells": {
+            "1": "Compendium.pf2e.spells-srd.Item.jsWthW1Qy6tg3SwD",
+            "3": "Compendium.pf2e.spells-srd.Item.B3eLlbaPxOYHcs1o",
+            "4": "Compendium.pf2e.spells-srd.Item.CVvkveEH7lonSTZd"
+        },
+        "traits": {
+            "otherTags": [
+                "hucaen"
+            ],
+            "value": []
+        },
+        "weapons": [
+            "tricky pick"
+        ],
+        "slug": "cinderbeard"
+    },
+    "type": "deity"
+}

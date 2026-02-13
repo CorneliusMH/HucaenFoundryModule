@@ -21,7 +21,7 @@
                 "freedom",
                 "magic",
                 "knowledge",
-                "confidence"
+                "star"
             ]
         },
         "font": [
@@ -32,7 +32,7 @@
             "authors": "Cornelius",
             "license": "ORC",
             "remaster": true,
-            "title": "Player's Guide to Hucaen 1107: Foundry Edition"
+            "title": "Player's Guide to Hucaen 100ni: Foundry Edition"
         },
         "rules": [],
         "sanctification": {
@@ -48,7 +48,13 @@
         "spells": {
             "1": "Compendium.pf2e.spells-srd.Item.TjWHgXqPv5jywMti",
             "2": "Compendium.pf2e.spells-srd.Item.vTQvfYu2llKQedmY",
-            "8": "Compendium.pf2e.spells-srd.Item.Oj1PJBMQD9vuwCv7"
+            "3": "Compendium.pf2e.spells-srd.Item.Paralyze",
+            "4": "Compendium.pf2e.spells-srd.Item.Liminal Doorway",
+            "5": "Compendium.pf2e.spells-srd.Item.Mind Probe",
+            "6": "Compendium.pf2e.spells-srd.Item.Scrying",
+            "7": "Compendium.pf2e.spells-srd.Item.Recall Legacy",
+            "8": "Compendium.pf2e.spells-srd.Item.Mimic Spell",
+            "9": "Compendium.pf2e.spells-srd.Item.Bilocation",
         },
         "traits": {
             "otherTags": [
