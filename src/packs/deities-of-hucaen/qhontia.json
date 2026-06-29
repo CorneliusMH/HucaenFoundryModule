@@ -20,8 +20,8 @@
             "primary": [
                 "nature",
                 "decay",
-                "rebirth",
-                "plague"
+                "death",
+                "indulgence"
             ]
         },
         "font": [
@@ -32,7 +32,7 @@
             "authors": "Cornelius",
             "license": "ORC",
             "remaster": true,
-            "title": "Player's Guide to Hucaen 1107: Foundry Edition"
+            "title": "Player's Guide to Hucaen: Foundry Edition"
         },
         "rules": [],
         "sanctification": {

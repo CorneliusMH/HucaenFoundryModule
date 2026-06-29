@@ -4,7 +4,7 @@ import hashlib
 import random
 import string
 
-inputFilePath = './collating/deities.json'
+inputFilePath = './collating/deities.csv'
 spellindexPath = './collating/spellIndex.json'
 template = './collating/templateDeity.json'
 
@@ -12,22 +12,25 @@ inputData = {}
 spellIndex = {}
 deityArray = []
 
-with open(inputFilePath, 'r', encoding='utf-8') as jsonf: 
-	inputData = json.load(jsonf)
+with open(inputFilePath, newline='') as csvfile:
+	inputData = csv.DictReader(csvfile)
+	for deity in inputData:
+		deityArray.append(deity)
+	print(deityArray[0])
+
 
 with open(spellindexPath, 'r', encoding='utf-8') as jsonz: 
 	spellIndex = json.load(jsonz)
 
 def input_deity_list(inputData):
-	for row in inputData:
-		if "Hucaen Pantheon" in row['Source']:
-			deityArray.append(row)
+	print ("input")
 
 def process_deity(inputBlob):
 	god = inputBlob
 	with open(template, 'r', encoding='utf-8') as jsonBase: 
 		deityWhole = json.load(jsonBase)
-	filename 					= god['Deity'].lower()+'.json'
+	deityNameLower				= god['Name'].lower()
+	fileName 					= deityNameLower+'.json'
 	deityJson 					= deityWhole['system']
 	deityJson['weapons'] 		= [god['Favored Weapon']]
 	deityJson['attribute'] 		= attr(god['Divine Attribute'])
@@ -37,18 +40,18 @@ def process_deity(inputBlob):
 	else:
 		deityJson['font'] 		= [god['Divine Font'].lower()]
 	deityJson['domains']		= get_domains(god['Domains'])
-	deityWhole['_id'] 			= god['id']
-	deityWhole['name']			= god['Deity']
+	deityWhole['_id'] 			= god['Name']
+	deityWhole['name']			= god['Name']
 	deityJson['skill']			= [god['Divine Skill'].lower()]
 	deityJson['description'] 	= get_desc(god)
 	deityJson['sanctification'] = get_sanc(god['Divine Sanctification'])
-	deityJson['slug']			= god['Deity'].lower()
-	deityWhole['img']			= "modules/hucaen-module/static/deities/"+god['Deity'].lower()+'.svg'
-	deityWhole['_key']			= "!items!"+god['id']
+	deityJson['slug']			= deityNameLower
+	deityWhole['img']			= "modules/hucaen-module/static/deities/"+deityNameLower+'.png'
+	deityWhole['_key']			= "!items!"+deityNameLower
 	#deityWhole['flags']['scene-packer']['sourceId'] = 'Item.'+deityWhole['_id']
 	# We end here
 	deityWhole['system'] = deityJson
-	output_json(deityWhole,'./src/packs/deities-of-hucaen/'+filename)
+	output_json(deityWhole,'./src/packs/deities-of-hucaen/'+fileName)
 
 def spellLookup(spell):
 	tag = spellIndex[spell]
@@ -117,5 +120,7 @@ def get_sanc(sanctify):
 
 
 input_deity_list(inputData)
+
+
 for jsonBlob in deityArray:
 	process_deity(jsonBlob)
