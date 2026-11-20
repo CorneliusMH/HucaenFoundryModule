@@ -1,11 +1,7 @@
 {
-    "_id": "Cinderbeard",
-    "_key": "!items!cinderbeard",
-    "effects": [],
-    "folder": null,
+    "_id": "SDusIEPahTPHvKz7",
     "img": "modules/hucaen-module/static/deities/cinderbeard.png",
     "name": "Cinderbeard",
-    "sort": 0,
     "system": {
         "attribute": [
             "dex",
