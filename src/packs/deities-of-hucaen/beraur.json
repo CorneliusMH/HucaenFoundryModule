@@ -1,6 +1,7 @@
 {
     "_id": "pbxv8Juml3yNQ6TF",
     "img": "modules/hucaen-module/static/deities/beraur.png",
+    "_key": "!items!pbxv8Juml3yNQ6TF",
     "name": "Beraur",
     "system": {
         "attribute": [
@@ -12,7 +13,6 @@
             "value": "<p>Beraur leads the way to the end of the tunnel, the path back to forgiveness and civilization. The Cleansing Light seeks to bring order to chaos and purity to corruption. His followers are occasionally accused of overzealousness when they burn away the rot.</p>\n<p><strong>Edicts</strong> seek out and challenge oppressors and tyrants, defend friends and the innocent</p>\n<p><strong>Anathema</strong> suffer a bully's insults to you or another without retort, abandon a friend in need</p>\n<p><strong>Areas of Concern</strong> bravery, honest redemption, the sun</p>"
         },
         "domains": {
-            "alertnate": [],
             "primary": [
                 "healing",
                 "protection",
